@@ -1,0 +1,1174 @@
+{
+    "heroes": [
+        {
+            "id": 1,
+            "name": "D.VA",
+            "roleId": 1,
+            "description": "Le méca de D.Va est aussi agile que puissant : ses fusio-canons jumelés tirent en continu à courte portée, et elle peut activer ses turboréacteurs pour bondir par-dessus ennemis et obstacles, ou abattre les projectiles en plein air avec sa matrice défensive.",
+            "history": "D.Va est une ancienne joueuse professionnelle qui met désormais ses aptitudes au service de la défense de sa patrie aux commandes d’un méca ultra-moderne. Il y a vingt ans, la Corée du Sud a été attaquée par une colossale monstruosité omniaque qui a jailli des profondeurs orientales de la mer de Chine. Cet énorme assemblage malhabile infligea des dégâts catastrophiques aux cités côtières avant d’être repoussé sous les eaux. Suite à cet évènement, le gouvernement sud-coréen a développé une unité de drones blindés, MEKA, pour protéger les environnements urbains en prévision de futurs combats contre la menace omniaque. Les craintes du gouvernement se sont avérées fondées, car les attaques survinrent à intervalles réguliers. De temps à autres, la monstruosité sortait de la mer pour attaquer la Corée du Sud et ses voisins. L’omniaque apprenait des affrontements et se reconfigurait souvent, apparaissant sous une nouvelle forme avec des armes et des capacités différentes. Chaque incident se terminait par un match nul, la monstruosité vaincue, mais non détruite. L’omniaque continuant à s’adapter, il finit par détruire le réseau de contrôle des drones MEKA, obligeant l’armée à installer des pilotes dans les mécas. Dans une recherche désespérée de candidats adaptés, le gouvernement se tourna vers les joueurs professionnels du pays, qui possédaient les réflexes et l’instinct nécessaire pour faire fonctionner les systèmes d’armes avancées des mécas. Les plus grandes stars furent enrôlées, y compris la championne du monde en titre, Hana Song, alias « D.Va ». Réputée pour ses compétences sans pareil, D.Va était une compétitrice enragée qui jouait pour gagner, à n’importe quel prix, et elle avait la réputation bien méritée de se montrer impitoyable envers ses adversaires. Considérant ses nouvelles missions comme un jeu, D.Va charge au combat en compagnie du reste de son unité MEKA, prête à défendre son pays à tout instant. Elle a récemment commencé à diffuser ses opérations de combat en direct pour ses fans, si nombreux qu’elle est devenue une célébrité mondiale.",
+            "difficulty": 2,
+            "videoHeader": "https://d1u1mce87gyfbn.cloudfront.net/hero/dva/ability-fusion-cannons/video-ability.webm",
+            "videoBackground": "https://d1u1mce87gyfbn.cloudfront.net/hero/dva/idle-video.webm",
+            "imageProfile": "https://d1u1mce87gyfbn.cloudfront.net/hero/dva/hero-select-portrait.png",
+            "capacities": [
+                {
+                    "name": "FUSIO-CANONS",
+                    "description": "Le méca de D.VA est équipé de canons rotatifs jumelés à courte portée. Activés, ils infligent d’importants dégâts continus sans avoir besoin d’être rechargés, mais ils ralentissent les déplacements de D.Va.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/dva/ability-fusion-cannons/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/dva/ability-fusion-cannons/icon-ability.png"
+                },
+                {
+                    "name": "PISTOLASER",
+                    "description": "Lorsqu’elle est hors de son méca, D.Va peut continuer le combat avec une arme automatique à moyenne portée.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/dva/ability-light-gun/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/dva/ability-light-gun/icon-ability.png"
+                },
+                {
+                    "name": "TURBORÉACTEURS",
+                    "description": "Le méca se projette dans les airs et D.Va est propulsée en avant par l’inertie. Elle peut tourner et changer de direction ou foncer sur ses ennemis, les projetant en arrière.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/dva/ability-boosters/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/dva/ability-boosters/icon-ability.png"
+                },
+                {
+                    "name": "MATRICE DÉFENSIVE",
+                    "description": "D.Va peut maintenir son système de ciblage avant pendant un court instant. Tant qu’il est actif, les projectiles interceptés par la matrice sont neutralisés.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/dva/ability-defense-matrix/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/dva/ability-defense-matrix/icon-ability.png"
+                },
+                {
+                    "name": "MICRO-MISSILES",
+                    "description": "D.Va lance une volée de roquettes explosives.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/dva/ability-micro-missiles/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/dva/ability-micro-missiles/icon-ability.png"
+                },
+                {
+                    "name": "AUTODESTRUCTION",
+                    "description": "Si son armure de combat blindée est détruite, D.Va peut appeler un nouveau méca et reprendre le combat.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/dva/ability-self-destruct/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/dva/ability-self-destruct/icon-ability.png"
+                },
+                {
+                    "name": "APPEL DU MÉCA",
+                    "description": "Si son armure de combat blindée est détruite, D.Va peut appeler un nouveau méca et reprendre le combat",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/dva/ability-call-mech/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/dva/ability-call-mech/icon-ability.png"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "ORISA",
+            "roleId": 1,
+            "description": "Orisa est le pilier central de son équipe, qu’elle défend en première ligne grâce à son écran protecteur. Elle peut attaquer à distance, renforcer ses propres défenses, projeter des charges à gravitons qui ralentissent et déplacent ses adversaires, ou encore déployer un surchargeur qui augmente les dégâts infligés par plusieurs de ses alliés.",
+            "history": "Assemblée à partir de pièces récupérées sur d’anciens robots défensifs OR15, dont la durée de vie n’a guère été longue, Orisa est la nouvelle protectrice de la ville. Toutefois, il lui reste encore beaucoup à apprendre. Mis en service avant la crise des Omniums, les robots de sécurité OR14, surnommés « Idina », étaient autrefois construits dans l’immense Omnium du Nigeria. Après la guerre, ces robots, comme bien d’autres modèles utilisés pendant la crise, ont vu leur production interrompue. Vingt ans plus tard, Numbani relançait le programme OR14 pour protéger la ville des menaces extérieures. Ces nouveaux modèles OR15 ont connu une brève période d’activité avant d’être détruits lors d’une attaque menée par Doomfist. Le programme ayant été abandonné après l’attaque, le gouvernement civil a vendu les dernières pièces des robots OR15. Certaines d’entre elles ont été achetées par Efi Oladele, une brillante fillette de onze ans dont les exploits en matière de robotique et d’intelligence artificielle lui ont déjà valu de recevoir la « bourse des génies » décernée par la fondation Adawe. Encouragée par des parents à l’esprit ouvert, Efi a utilisé sa bourse pour faire l’acquisition de l’un des robots OR15 retirés de la circulation. Pour Efi, Numbani avait besoin d’un protecteur, et un modèle OR15 amélioré lui semblait parfait pour ce rôle. Elle a donc réparé et reconfiguré le robot avant de le doter d’une personnalité conçue par ses soins. Efi a baptisé la nouvelle héroïne de Numbani « Orisa ». Orisa a prouvé qu’elle pouvait rendre service à la ville, mais il lui reste encore à trouver son protocole optimal. Le manque d’expérience de l’omniaque peut parfois lui porter préjudice, mais la bonne volonté d’Efi à lui apporter les ajustements nécessaires et l’intelligence artificielle évolutive d’Orisa ont toujours permis au robot et à sa créatrice de corriger leurs erreurs. Orisa commence tout juste sa carrière de protectrice et il lui reste beaucoup à apprendre sur le monde et sur son rôle. Mais guidée par l’optimisme indéfectible d’Efi et par son propre sens grandissant de l’honneur et du devoir, Orisa est prête à défendre Numbani et sa créatrice à tout prix.",
+            "difficulty": 2,
+            "videoHeader": "https://d1u1mce87gyfbn.cloudfront.net/hero/orisa/intro-video.webm",
+            "videoBackground": "https://d1u1mce87gyfbn.cloudfront.net/hero/orisa/idle-video.webm",
+            "imageProfile": "https://d1u1mce87gyfbn.cloudfront.net/hero/orisa/hero-select-portrait.png",
+            "capacities": [
+                {
+                    "name": "CANON À FUSION",
+                    "description": "Le canon automatique d’Orisa inflige des dégâts en continu mais ralentit ses déplacements quand elle l’utilise.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/orisa/ability-fusion-driver/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/orisa/ability-fusion-driver/icon-ability.png"
+                },
+                {
+                    "name": "BLINDAGE",
+                    "description": "Orisa subit temporairement moins de dégâts et ne peut pas être affectée par des effets incapacitants.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/orisa/ability-fortify/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/orisa/ability-fortify/icon-ability.png"
+                },
+                {
+                    "name": "HALTE !",
+                    "description": "Orisa lance une charge à gravitons qu’elle peut faire exploser pour ralentir et attirer les ennemis proches dans la zone de déflagration.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/orisa/ability-halt/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/orisa/ability-halt/icon-ability.png"
+                },
+                {
+                    "name": "DISPOSITIF DE PROTECTION",
+                    "description": "D.Va peut maintenir son système de ciblage avant pendant un court instant. Tant qu’il est actif, les projectiles interceptés par la matrice sont neutralisés.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/orisa/ability-protective-barrier/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/orisa/ability-protective-barrier/icon-ability.png"
+                },
+                {
+                    "name": "SURCHARGEUR",
+                    "description": "Orisa déploie un appareil qui augmente les dégâts infligés par les alliés qui se trouvent dans sa ligne de vue.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/orisa/ability-supercharger/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/orisa/ability-supercharger/icon-ability.png"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "REINHARDT",
+            "roleId": 1,
+            "description": "Protégé par une armure motorisée, armé d’un marteau et propulsé par un réacteur, Reinhardt charge ses ennemis et défend ses alliés à l’aide d’une large écran énergétique.",
+            "history": "Reinhardt Wilhelm se présente comme un champion d’un âge révolu, qui règle sa vie sur les valeurs chevaleresques de la vertu, de la justice et du courage. Il y a plus de trente ans, Overwatch fut fondé pour contrer la menace que représentaient les soulèvements de robots partout dans le monde. Reinhardt, un soldat allemand plusieurs fois décoré, fut incorporé dans la première équipe d’intervention d’Overwatch qui mit fin à la crise des Omniums. Après la résolution du conflit, Overwatch grandit pour devenir une institution mondiale chargée de maintenir la paix dans un monde déchiré par les guerres. Reinhardt était l’un de ses piliers les plus fidèles. La déontologie inflexible et la personnalité hors du commun de Reinhardt lui valurent l’admiration de ses pairs comme de ses supérieurs. Jamais réticent à parler franchement, il était le partisan le plus démonstratif d’Overwatch, mais au besoin, il savait aussi en être le critique le plus impitoyable, ne manquant jamais de rappeler à tous que l’organisation était censée rester au service du bien commun. À la veille de ses soixante ans, Reinhardt fut contraint de quitter le service actif. Déprimé, il craignait de perdre sa raison d’être et que ses jours de gloire ne soient derrière lui. Alors que le climat s’assombrissait et qu’Overwatch était mis en cause dans des affaires de corruption et de sédition, Reinhardt ne put qu’assister à l’effondrement et à la disgrâce de la cause qu’il avait dédié sa vie à défendre. Même si Overwatch finit par être dissous, Reinhardt ne pouvait se satisfaire de regarder passivement le monde succomber au chaos. Vêtu à nouveau de son armure de croisé tel un chevalier d’antan, il a promis de combattre pour la justice partout en Europe, de défendre les innocents et d’inspirer les cœurs et les esprits par la promesse de jours meilleurs.",
+            "difficulty": 1,
+            "videoHeader": "https://d1u1mce87gyfbn.cloudfront.net/hero/reinhardt/intro-video.webm",
+            "videoBackground": "https://d1u1mce87gyfbn.cloudfront.net/hero/reinhardt/idle-video.webm",
+            "imageProfile": "https://d1u1mce87gyfbn.cloudfront.net/hero/reinhardt/hero-select-portrait.png",
+            "capacities": [
+                {
+                    "name": "MARTEAU À RÉACTION",
+                    "description": "Le marteau à réaction de Reinhardt est une arme de combat rapproché exemplaire, capable d’infliger des dégâts brutaux sur un large arc à chaque coup.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/reinhardt/ability-rocket-hammer/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/reinhardt/ability-rocket-hammer/icon-ability.png"
+                },
+                {
+                    "name": "ÉCRAN",
+                    "description": "Reinhardt déploie devant lui un large écran énergétique qui peut absorber une grande quantité de dégâts avant de disparaître. Reinhardt peut se protéger ainsi que ses compagnons qui se trouvent derrière l’écran, mais il ne peut pas attaquer pendant qu’il le maintient en place.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/reinhardt/ability-shield/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/reinhardt/ability-shield/icon-ability.png"
+                },
+                {
+                    "name": "CHARGE",
+                    "description": "Reinhardt charge droit devant lui et saisit le premier ennemi qui se trouve sur son chemin. S’il entre en collision avec un mur, les adversaires qu’il porte sont écrasés et subissent des dégâts extrêmes.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/reinhardt/ability-charge/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/reinhardt/ability-charge/icon-ability.png"
+                },
+                {
+                    "name": "FRAPPE DE FEU",
+                    "description": "En faisant tournoyer son marteau devant lui, Reinhardt envoie un projectile enflammé qui transperce et inflige des dégâts à tous les ennemis qu’il touche.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/reinhardt/ability-fire-strike/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/reinhardt/ability-fire-strike/icon-ability.png"
+                },
+                {
+                    "name": "CHOC SISMIQUE",
+                    "description": "Reinhardt abat son marteau à réaction sur le sol, ce qui blesse et renverse tous les ennemis devant lui.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/reinhardt/ability-earth-shatter/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/reinhardt/ability-earth-shatter/icon-ability.png"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "CHOPPER",
+            "roleId": 1,
+            "description": "Avec son emblématique traquelard, Chopper attrape et attire ses ennemis avant de les réduire en miettes d’un coup de déferrailleur. Il est assez robuste pour survivre à de lourds dégâts, et peut récupérer ses points de vie grâce à son inhalateur.",
+            "history": "Chopper est un assassin impitoyable avec une réputation amplement méritée de cruauté et de destruction gratuite. Mako Rutledge est l’un des nombreux habitants de l’intérieur du pays australien dont les terres ont été saisies et utilisées pour la construction d’un omnium. Mais à la suite de la crise des Omniums, le gouvernement a fait le choix discutable d’offrir ces terres aux omniaques qui avaient presque détruit leur pays, dans l’espoir d’établir un traité de paix à long terme. Cet accord a déplacé de façon permanente Mako et un grand nombre de résidents de la zone : un groupe épars de survivalistes, de fermiers solaires et de gens qui voulaient juste qu’on les laisse tranquilles. Furieux d’avoir perdu leur foyer, Mako et les autres résidents se sont violemment révoltés. Ils ont formé le Front de Libération Australien et attaqué l’Omnium et sa population de robots pour reprendre les terres qu’on leur avait volées. Les choses ne firent que s’envenimer jusqu’au jour où le FLA sabota le cœur du réacteur de l’Omnium, qui finit par exploser et détruire l’Omnium, irradiant toute la zone et éparpillant des morceaux de métal tordus et des débris sur des kilomètres à la ronde. Mako n’a pu que regarder son foyer devenir une terre désolée apocalyptique, et il en a été changé à jamais. Pour s’adapter à son nouvel environnement, il a enfilé un masque et est parti parcourir les autoroutes en ruine de l’intérieur du pays sur sa moto délabrée. Petit à petit, il a perdu toute humanité et les derniers vestiges du Mako d’antan disparurent pour laisser la place à Chopper.",
+            "difficulty": 1,
+            "videoHeader": "https://d1u1mce87gyfbn.cloudfront.net/hero/roadhog/intro-video.webm",
+            "videoBackground": "https://d1u1mce87gyfbn.cloudfront.net/hero/roadhog/idle-video.webm",
+            "imageProfile": "https://d1u1mce87gyfbn.cloudfront.net/hero/roadhog/hero-select-portrait.png",
+            "capacities": [
+                {
+                    "name": "DÉFERRAILLEUR",
+                    "description": "Le déferrailleur de Chopper lance du shrapnel à courte portée mais sur une large zone. Sinon il peut lancer une boule de shrapnels qui détone plus loin, éparpillant les fragments métalliques depuis le point d’impact.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/roadhog/ability-scrap-gun/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/roadhog/ability-scrap-gun/icon-ability.png"
+                },
+                {
+                    "name": "INHALATEUR",
+                    "description": "Chopper récupère une partie de ses points de vie sur une courte période.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/roadhog/ability-take-a-breather/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/roadhog/ability-take-a-breather/icon-ability.png"
+                },
+                {
+                    "name": "TRAQUELARD",
+                    "description": "Chopper lance sa chaîne vers une cible ; s’il l’attrape, il l’attire à lui, à courte portée.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/roadhog/ability-chain-hook/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/roadhog/ability-chain-hook/icon-ability.png"
+                },
+                {
+                    "name": "ÉQUARISSEUR",
+                    "description": "Après avoir ajouté un chargeur supplémentaire au-dessus de son déferrailleur, Chopper le bourre de munitions. Pendant une courte période, il mitraille une large zone devant lui avec des shrapnels qui repoussent les ennemis.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/roadhog/ability-whole-hog/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/roadhog/ability-whole-hog/icon-ability.png"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "WINSTON",
+            "roleId": 1,
+            "description": "Winston manie d’impressionnantes inventions (des propulseurs, un canon Tesla dévastateur et un générateur d’écran portable, entre autres) avec une force littéralement surhumaine.",
+            "history": "Gorille génétiquement modifié et supérieurement intelligent, Winston est un brillant chercheur et un fervent défenseur du génie de l’humanité. La colonie lunaire Horizon fut un premier pas pour l’humanité vers une reprise de la conquête spatiale. Parmi ses premiers résidents se trouvait un groupe de gorilles génétiquement améliorés qui devaient servir à tester les effets des séjours prolongés dans l’espace. L’un de ces gorilles répondit au traitement en faisant montre d’un tel développement cérébral que le Dr Harold Winston le prit sous son aile pour lui enseigner les sciences et l’histoire du génie humain. Le jeune gorille passait ses journées à assister le chercheur dans ses expériences et à observer la lointaine planète bleue par les hublots de l’habitat, en rêvant aux possibilités infinies qui l’attendaient là-bas. Mais sa vie devait sombrer dans le chaos lorsque les autres gorilles se rebellèrent, tuèrent les scientifiques qui les encadraient et prirent le contrôle de la colonie. Prenant le nom de son précepteur humain adoré, Winston construisit une fusée et prit la fuite vers la Terre. Il y trouva un nouveau foyer avec Overwatch, une organisation qui représentait tout ce qu’il avait admiré de l’humanité. Winston put enfin vivre à la mesure des idéaux héroïques qu’on lui avait inculqués. Depuis la dissolution d’Overwatch, Winston vit reclus, coupé d’un monde en lequel il continue néanmoins à croire, et espérant le retour de l’époque des héros.",
+            "difficulty": 2,
+            "videoHeader": "https://d1u1mce87gyfbn.cloudfront.net/hero/winston/intro-video.webm",
+            "videoBackground": "https://d1u1mce87gyfbn.cloudfront.net/hero/winston/idle-video.webm",
+            "imageProfile": "https://d1u1mce87gyfbn.cloudfront.net/hero/winston/hero-select-portrait.png",
+            "capacities": [
+                {
+                    "name": "CANON TESLA",
+                    "description": "Tant que Winston garde le doigt sur la gâchette, son arme envoie un flot de décharges électriques à courte portée.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/winston/ability-tesla-cannon/video-ability.webm",
+                    "image:": "https://d1u1mce87gyfbn.cloudfront.net/hero/winston/ability-tesla-cannon/icon-ability.png"
+                },
+                {
+                    "name": "PROPULSEURS",
+                    "description": "Winston bondit dans les airs avec l’aide de sa réserve d’énergie dorsale et retombe en infligeant des dégâts significatifs et en étourdissant les ennemis proches.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/winston/ability-jump-pack/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/winston/ability-jump-pack/icon-ability.png"
+                },
+                {
+                    "name": "GÉNÉRATEUR D’ÉCRAN",
+                    "description": "Le générateur d’écran de Winston projette un champ de force en forme de bulle qui absorbe les dégâts jusqu’à sa destruction. Les alliés à l’intérieur sont protégés et peuvent tirer.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/winston/ability-shield-projector/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/winston/ability-shield-projector/icon-ability.png"
+                },
+                {
+                    "name": "RAGE PRIMORDIALE",
+                    "description": "Winston embrasse sa nature animale, augmentant notablement ses points de vie et le rendant très difficile à tuer, renforçant ses attaques en mêlée et lui permettant d’utiliser ses propulseurs plus souvent. Quand il est enragé, Winston ne peut utiliser que les propulseurs et les attaques au corps à corps.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/winston/ability-primal-rage/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/winston/ability-primal-rage/icon-ability.png"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "BOULDOZER",
+            "roleId": 1,
+            "description": "Bouldozer roule sur le champ de bataille, en se servant de son arsenal et de son méca imposant pour écraser ses ennemis.",
+            "history": "L’une des nombreuses expériences menées sur la colonie lunaire Horizon consistait à traiter des animaux avec une thérapie génique pour évaluer leur adaptation à des séjours prolongés sur la Lune. Effet secondaire inattendu, plusieurs cobayes se mirent à afficher une croissance exceptionnelle de leur taille et de leurs fonctions intellectuelles. Les sujets d’expérience étaient principalement des gorilles et d’autres primates, mais d’autres espèces furent également utilisées, dont un hamster appelé Hammond. Comme chez les autres spécimens, l’intelligence d’Hammond grandit et le hamster devint plus curieux du monde qui l’entourait. Au plus grand étonnement, tinté d’amusement, des scientifiques, Hammond fuyait souvent dans différentes sections de la base lunaire. Et bien qu’ils le retrouvèrent et le rapportèrent dans sa cage à chaque fois, ils ne découvrirent jamais le véritable but que cachait ces escapades nocturnes. Comment auraient-ils pu savoir qu’Hammond développait ses compétences de mécanicien, qui se révéleraient bientôt utiles ? Quand des gorilles se rebellèrent face aux scientifiques humains et prirent le contrôle, la colonie fut plongée dans le chaos. Mais tous les animaux ne se mêlèrent pas de la révolte, et l’un des gorilles, Winston, organisa sa fuite vers la Terre. Hammond profita de cette opportunité. Il construisit une capsule de fortune et s’arrima au vaisseau de Winston quand le gorille décolla. Alors qu’ils entraient dans l’atmosphère terrestre, Hammond se détacha et atterrit de son côté, dans l’outback australien. Hammond modifia sa capsule d’évasion pour s’introduire dans la lucrative arène de combats de mécas, le Laminoir. Grimpant les échelons, « Bouldozer » passa de simple concurrent à champion, alors que l’identité de son pilote restait un mystère. Ayant empoché ses gains, Hammond parvint à améliorer son méca afin de survivre au voyage hors de la zone contrôlée par les Junkers. Aujourd’hui libre de voyager et d’agir comme il l’entend, Hammond explore le monde, avide de nouvelles aventures.",
+            "difficulty": 3,
+            "videoHeader": "https://d1u1mce87gyfbn.cloudfront.net/hero/wrecking-ball/intro-video.webm",
+            "videoBackground": "https://d1u1mce87gyfbn.cloudfront.net/hero/wrecking-ball/idle-video.webm",
+            "imageProfile": "https://d1u1mce87gyfbn.cloudfront.net/hero/wrecking-ball/hero-select-portrait.png",
+            "capacities": [
+                {
+                    "name": "BATTERIE DE CANONS",
+                    "description": "Les armes d’assaut automatiques de Bouldozer sont excellentes pour éliminer la menace à moyenne portée.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/wrecking-ball/ability-quad-cannons/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/wrecking-ball/ability-quad-cannons/icon-ability.png"
+                },
+                {
+                    "name": "ROULÉ-BOULÉ",
+                    "description": "Bouldozer se roule en boule et augmente sa vitesse de déplacement.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/wrecking-ball/ability-roll/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/wrecking-ball/ability-roll/icon-ability.png"
+                },
+                {
+                    "name": "GRIFFE-CRAMPON",
+                    "description": "Bouldozer projette une griffe-crampon pour se balancer rapidement depuis son point d’ancrage. Quand il provoque des collisions à grande vitesse, il blesse et repousse ses ennemis.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/wrecking-ball/ability-grappling-claw/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/wrecking-ball/ability-grappling-claw/icon-ability.png"
+                },
+                {
+                    "name": "BOUCLIER DYNAMIQUE",
+                    "description": "Le bouclier personnel de Bouldozer, dont la puissance dépend du nombre d’ennemis à proximité, absorbe temporairement les dégâts.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/wrecking-ball/ability-adaptive-shield/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/wrecking-ball/ability-adaptive-shield/icon-ability.png"
+                },
+                {
+                    "name": "PILONNAGE",
+                    "description": "Bouldozer atterrit avec force, ce qui blesse les ennemis et les projette en l’air.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/wrecking-ball/ability-piledriver/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/wrecking-ball/ability-piledriver/icon-ability.png"
+                },
+                {
+                    "name": "CHAMP DE MINES",
+                    "description": "Bouldozer déploie un large champ de mines de proximité persistantes, qui explosent au contact des ennemis.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/wrecking-ball/ability-minefield/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/wrecking-ball/ability-minefield/icon-ability.png"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "ZARYA",
+            "roleId": 1,
+            "description": "Avec ses robustes écrans convertissant les dégâts subis en énergie pour son énorme canon à particules, Zarya représente un atout de choix pour tenir les premières lignes du champ de bataille.",
+            "history": "Aleksandra Zaryanova est l’une des femmes les plus vigoureuses au monde, une athlète reconnue qui a sacrifié sa gloire personnelle pour protéger sa famille, ses amis et sa patrie en temps de guerre. Aleksandra est née dans un village isolé de Sibérie, en première ligne de la crise des Omniums qui débuta il y a une trentaine d’années. Même si l’armée russe parvint à vaincre les robots et à neutraliser l’omnium sibérien, la région fut dévastée par le conflit. Aleksandra, qui n’était alors qu’une enfant, grandit au sein de la destruction de l’après-guerre et fit le serment d’acquérir la force nécessaire pour aider les siens à se remettre. Devenue une haltérophile et une bodybuildeuse accomplie, Aleksandra fut repérée par le programme olympique national comme une star potentielle. Au prix d’un entraînement draconien, elle gravit tous les échelons en représentant son pays, et l’on s’attendait à la voir surpasser tous les records en vigueur lors des prochains championnats du monde. Mais à la veille du tournoi, l’omnium sibérien sortit de sa longue hibernation pour orchestrer une attaque et son village se trouva à nouveau au cœur de la guerre. Aleksandra abandonna immédiatement la compétition pour rentrer chez elle et s’enrôler dans les forces de défense locales, sacrifiant la vie de gloire et de fortune qui l’attendait. Elle est désormais sous les drapeaux : un symbole pour certains, une camarade de combat pour d’autres. Mais de son propre aveu, elle a enfin la chance de mettre sa prodigieuse force physique au service de ceux qu’elle aime.",
+            "difficulty": 3,
+            "videoHeader": "https://d1u1mce87gyfbn.cloudfront.net/hero/zarya/intro-video.webm",
+            "videoBackground": "https://d1u1mce87gyfbn.cloudfront.net/hero/zarya/idle-video.webm",
+            "imageProfile": "https://d1u1mce87gyfbn.cloudfront.net/hero/zarya/hero-select-portrait.png",
+            "capacities": [
+                {
+                    "name": "CANON À PARTICULES",
+                    "description": "Le puissant canon à particules de Zarya déchaîne un rayon d’énergie destructrice à courte portée. Zarya peut également s’en servir pour projeter une charge explosive capable de blesser plusieurs adversaires.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/zarya/ability-particle-cannon/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/zarya/ability-particle-cannon/icon-ability.png"
+                },
+                {
+                    "name": "ÉCRAN DE PARTICULES",
+                    "description": "Le canon à particules peut émettre une barrière individuelle qui protège Zarya contre les attaques la ciblant, absorbant leur énergie pour augmenter les dégâts et la largeur du rayon de son arme.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/zarya/ability-particle-barrier/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/zarya/ability-particle-barrier/icon-ability.png"
+                },
+                {
+                    "name": "ÉCRAN GÉNÉRÉ",
+                    "description": "Zarya englobe l’un de ses coéquipiers dans une barrière d’énergie qui absorbe les coups et renforce la puissance de son canon à particules.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/zarya/ability-projected-barrier/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/zarya/ability-projected-barrier/icon-ability.png"
+                },
+                {
+                    "name": "ORBE À GRAVITONS",
+                    "description": "Zarya lance une bombe gravitationnelle qui attire les combattants ennemis et les blesse tant qu’ils restent piégés.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/zarya/ability-graviton-surge/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/zarya/ability-graviton-surge/icon-ability.png"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "BASTION",
+            "roleId": 3,
+            "description": "Avec son protocole de réparation et sa capacité à alterner entre configuration d’assaut stationnaire, de reconnaissance ou de tank, les chances de victoire de Bastion sont très élevées.",
+            "history": "Autrefois combattant de première ligne lors de la terrible crise des Omniums, ce curieux automate Bastion explore maintenant le monde, fasciné par la nature mais vigilant face à une humanité qui le craint. Initialement créées pour des missions de maintien de la paix, les unités robotiques Bastion possédaient la capacité unique de pouvoir se reconfigurer rapidement pour se muer en armes d’assaut. Pendant la crise des Omniums, les Bastions furent dirigés contre leurs concepteurs humains et formèrent ainsi le gros des troupes rebelles des Omniums. À la fin du conflit, ils furent presque tous démantelés ou détruits. Aujourd’hui encore, les unités Bastion incarnent les horreurs de cette période. Une seule unité Bastion, gravement endommagée pendant les derniers moments de la guerre, fut oubliée pendant plus de dix ans. Elle demeura en veille prolongée, exposée à la rouille et aux intempéries, laissant la nature reprendre ses droits. Couvert de lierre et de racines, abritant les nids ou les terriers de petits animaux, le robot resta inerte, apparemment sans conscience du passage des saisons. Jusqu’au jour où il se réactiva brusquement. Sa programmation de combat ayant pour ainsi dire disparu, il développa un grand intérêt pour son environnement naturel et ses occupants. Cette curiosité insatiable poussa l’unité Bastion à arpenter le monde pour découvrir le sens de son existence sur une planète ravagée par la guerre. Même si « Bastion » semble très doux – voire inoffensif – sa programmation de combat reprend les commandes si l’unité perçoit un danger, et utilise l’ensemble de son arsenal pour éliminer tout ce qu’elle considère comme une menace. Cela a parfois provoqué des conflits avec les rares humains qui ont croisé sa route, et l’a poussé à éviter les zones peuplées en faveur des régions du monde les plus désertes et sauvages.",
+            "difficulty": 1,
+            "videoHeader": "https://d1u1mce87gyfbn.cloudfront.net/hero/bastion/intro-video.webm",
+            "videoBackground": "https://d1u1mce87gyfbn.cloudfront.net/hero/bastion/idle-video.webm",
+            "imageProfile": "https://d1u1mce87gyfbn.cloudfront.net/hero/bastion/hero-select-portrait.png",
+            "capacities": [
+                {
+                    "name": "CONFIGURATION : RECONNAISSANCE",
+                    "description": "En mode Reconnaissance, Bastion est parfaitement mobile et équipé d’une mitrailleuse légère qui tire des rafales régulières et est efficace à moyenne portée.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/bastion/ability-config-recon/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/bastion/ability-config-recon/icon-ability.png"
+                },
+                {
+                    "name": "CONFIGURATION : SENTINELLE",
+                    "description": "En mode Sentinelle, Bastion est une centrale électrique statique, protégée par un écran frontal et équipée d’une mitrailleuse rotative capable de déchaîner une pluie de balles. L’arme peut effectuer un « balayage » dévastateur à courte ou moyenne portée.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/bastion/ability-config-sentry/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/bastion/ability-config-sentry/icon-ability.png"
+                },
+                {
+                    "name": "RECONFIGURATION",
+                    "description": "Bastion passe d’un mode de combat à l’autre afin de s’adapter aux conditions du champ de bataille.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/bastion/ability-reconfigure/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/bastion/ability-reconfigure/icon-ability.png"
+                },
+                {
+                    "name": "AUTORÉPARATION",
+                    "description": "Bastion récupère des points de vie, mais ses systèmes d’armement sont désactivés jusqu’à la fin de la réparation.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/bastion/ability-self-repair/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/bastion/ability-self-repair/icon-ability.png"
+                },
+                {
+                    "name": "CONFIGURATION : TANK",
+                    "description": "En mode Tank, Bastion déploie des chenilles et un puissant canon à longue portée. Les tirs explosifs du canon démolissent les cibles présentes dans son large rayon d’explosion, mais Bastion ne peut conserver ce mode que pour un temps limité.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/bastion/ability-config-tank/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/bastion/ability-config-tank/icon-ability.png"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "DOOMFIST",
+            "roleId": 3,
+            "description": "Les améliorations cybernétiques de Doomfist font de lui un combattant de première ligne à la fois puissant et très mobile. Capable d’infliger des dégâts à distance avec son calibre prosthétique, il peut également frapper le sol pour projeter ses ennemis dans les airs, ou charger dans la mêlée grâce à son direct d’enfer. Face à un groupe compact, Doomfist bondit hors de vue de ses adversaires pour mieux s’écraser au sol dans une spectaculaire frappe météore.",
+            "history": "Récemment évadé de prison, Doomfist entend bien plonger le monde dans un nouveau conflit, dont il est persuadé que l’humanité ressortira plus forte. Héritier d’une célèbre famille nigériane à la tête d’une entreprise spécialisée dans les technologies prosthétiques, Akande Ogundimu est une figure très intelligent et charismatique. Il joua un rôle prépondérant dans le développement et la modernisation de l’affaire familiale, sans oublier de consacrer le plus clair de son temps libre à sa première passion : les arts martiaux. Il se forma aux styles de combat africains traditionnels, comme le dambe ou le gidigbo, à la lutte, ainsi qu’à de multiples autres arts martiaux plus modernes, dont il ajouta les techniques les plus dévastatrices à son répertoire. Fort d’une vitesse et d’une puissance prodigieuses, Ogundimu mit à profit son incroyable capacité à lire les mouvements de ses adversaires à l’occasion de nombreux tournois, partout sur le continent. Mais sa carrière dans les arts martiaux fut brutalement interrompue lorsqu’il perdit son bras droit à la suite de la crise des Omniums. Les prothèses cybernétiques de son entreprise lui permirent de guérir de ses blessures, de devenir plus fort, mais le privèrent par la même occasion de toute compétition. Il reporta alors toute son ardeur sur ses affaires, sans jamais parvenir à combler le manque laissé béant… jusqu’au jour où Akinjide Adeyemi, alors connu comme le second Doomfist, fléau de Numbani, lui offrit une nouvelle chance. Adeyemi proposa à Ogundimu de se battre à ses côtés en tant que mercenaire. D’abord réticent, Ogundimu finit par accepter. Il découvrit alors une arène dans laquelle il pouvait librement déchaîner ses nouvelles capacités. Adeyemi lui ouvrit ensuite les portes de la Griffe. La doctrine de l’organisation, persuadée que seul le conflit permettait de rendre l’humanité plus forte, trouva un vibrant écho chez Ogundimu. De plus, les luttes intestines qui déchiraient la Griffe constituaient pour lui un nouveau défi, à la hauteur de son talent de meneur et de sa ruse de combattant. Rouage important de l’organisation, Adeyemi fut vite supplanté au sein de la Griffe par Ogundimu, dont l’intelligence et la capacité à transcender faisaient, aux yeux de tous, un chef naturel. Alors qu’Adeyemi se satisfaisait de pillages de Numbani, Ogundimu nourrissait une ambition bien plus grande. Ces différences de vue conduisirent Ogundimu à tuer son mentor, dont il arbore aujourd’hui le gantelet et le nom. Nouveau Doomfist, Ogundimu s’éleva rapidement dans la hiérarchie de la Griffe, jusqu’à participer à l’élaboration d’un conflit censé se propager dans le monde entier. Mais avant que leur plan porte ses fruits, Ogundimu fut vaincu et capturé par une équipe d’élite d’Overwatch comprenant Tracer, Winston et Genji. Emprisonné dans un quartier de haute sécurité pendant des années, il attendit patiemment que les évènements qu’il avait planifiés se produisent enfin. Lorsqu’il sentit venir le moment d’occuper de nouveau le devant de la scène, Doomfist s’évada et récupéra son gantelet lors d’un combat déséquilibré contre les nouveaux robots défensifs OR15 de Numbani. Ayant récupéré sa place au sein du conseil dirigeant de la Griffe, Doomfist est de nouveau prêt à déclencher une guerre qui consumera la planète toute entière.",
+            "difficulty": 3,
+            "videoHeader": "https://d1u1mce87gyfbn.cloudfront.net/hero/doomfist/intro-video.webm",
+            "videoBackground": "https://d1u1mce87gyfbn.cloudfront.net/hero/doomfist/idle-video.webm",
+            "imageProfile": "https://d1u1mce87gyfbn.cloudfront.net/hero/doomfist/hero-select-portrait.png",
+            "capacities": [
+                {
+                    "name": "CALIBRE PROSTHÉTIQUE",
+                    "description": "Doomfist tire une rafale à courte portée par les articulations prosthétiques de son poing. Ses munitions se rechargent automatiquement sur la durée.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/doomfist/ability-hand-cannon/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/doomfist/ability-hand-cannon/icon-ability.png"
+                },
+                {
+                    "name": "ONDE DE CHOC",
+                    "description": "Doomfist bondit en avant et frappe le sol, ce qui attire vers lui les ennemis proches.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/doomfist/ability-seismic-slam/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/doomfist/ability-seismic-slam/icon-ability.png"
+                },
+                {
+                    "name": "UPPERCUT",
+                    "description": "Doomfist envoie un uppercut aux ennemis qui se trouvent devant lui et les fait voltiger.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/doomfist/ability-rising-uppercut/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/doomfist/ability-rising-uppercut/icon-ability.png"
+                },
+                {
+                    "name": "DIRECT D’ENFER",
+                    "description": "Doomfist charge un coup de poing, puis fonce vers l’avant et repousse un ennemi. Les dégâts sont augmentés si l’ennemi heurte un mur.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/doomfist/ability-rocket-punch/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/doomfist/ability-rocket-punch/icon-ability.png"
+                },
+                {
+                    "name": "LA MEILLEURE DÉFENSE...",
+                    "description": "Quand Doomfist inflige des dégâts avec ses capacités, il génère un bouclier personnel temporaire.",
+                    "video": "",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/doomfist/ability-the-best-defense/icon-ability.png"
+                },
+                {
+                    "name": "FRAPPE MÉTÉORE",
+                    "description": "Doomfist bondit dans les airs, puis s’écrase au sol, infligeant alors d’importants dégâts.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/doomfist/ability-meteor-strike/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/doomfist/ability-meteor-strike/icon-ability.png"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "GENJI",
+            "roleId": 3,
+            "description": "Genji lance des shurikens précis et mortels sur ses cibles, et utilise son katana à la pointe de la technologie pour dévier les projectiles ou exécuter une Frappe du vent qui blesse sérieusement ses ennemis.",
+            "history": "Le cyborg Genji Shimada a fait la paix avec le corps augmenté qu’il rejetait jadis, et ce faisant, il a découvert une humanité supérieure. En tant que plus jeune fils du maître du clan ninja Shimada, Genji connut une vie luxueuse et privilégiée. Les entreprises illégales de sa famille l’intéressaient peu, et malgré ses impressionnantes prédispositions révélées lors de son entraînement de ninja, il passait l’essentiel de son temps à vivre en playboy. Au sein du clan, beaucoup considéraient que l’insouciance de Genji représentait un grave risque et en voulaient à son père de le gâter et de le protéger. À la mort inattendue du chef de clan, le frère aîné de Genji, Hanzo, exigea que Genji prenne un rôle plus important dans l’empire de feu leur père. Genji refusa, à la grande colère de Hanzo. Les tensions entre les frères débouchèrent sur une confrontation violente, qui laissa Genji à l’agonie. Hanzo pensait avoir tué son frère, mais Genji fut sauvé par Overwatch et l’intervention du Dr Angela Ziegler. L’organisation voyait en Genji un atout possible dans ses opérations en cours contre le clan Shimada. Grièvement blessé, Genji se cramponnait à la vie, et Overwatch offrit de rebâtir son corps en échange de son aide. Il fut soumis à un processus de cybernétisation intense, qui améliora sa rapidité et son agilité naturelles, tout en optimisant ses impressionnantes compétences de ninja. Transformé en arme vivante, Genji se lança avec passion dans le démantèlement de l’empire criminel de sa famille. Avec le temps, Genji se sentit de plus en plus divisé. Les éléments mécaniques de son corps lui répugnaient, et il n’arrivait pas à accepter ce qu’il était devenu. Lorsque sa mission fut terminée, il abandonna Overwatch et erra à travers le monde à la recherche d’un sens. Il vagabonda pendant de nombreuses années avant que son chemin ne croise celui du moine omniaque Zenyatta. Genji rejeta tout d’abord la sagesse de Zenyatta, mais le bienveillant omniaque ne se laissa pas décourager. Par la suite, Zenyatta devint son mentor, et sous la tutelle du moine, Genji se réconcilia avec sa double existence d'homme et de machine. Il apprit à accepter qu’en dépit de son corps de cyborg, son âme humaine était intacte, et il en vint à considérer sa nouvelle forme comme un don et une force unique. À présent, pour la première fois de sa vie, Genji est libre. Même lui ne sait pas où le mènera son chemin.",
+            "difficulty": 3,
+            "videoHeader": "https://d1u1mce87gyfbn.cloudfront.net/hero/genji/intro-video.webm",
+            "videoBackground": "https://d1u1mce87gyfbn.cloudfront.net/hero/genji/idle-video.webm",
+            "imageProfile": "https://d1u1mce87gyfbn.cloudfront.net/hero/genji/hero-select-portrait.png",
+            "capacities": [
+                {
+                    "name": "SHURIKEN",
+                    "description": "Genji lance trois shurikens mortels en succession rapide. Il peut également lancer trois shurikens en éventail.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/genji/ability-shuriken/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/genji/ability-shuriken/icon-ability.png"
+                },
+                {
+                    "name": "RIPOSTE",
+                    "description": "Avec des moulinets de son épée aussi rapides que l’éclair, Genji dévie les attaques et les renvoie vers ses adversaires.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/genji/ability-deflect/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/genji/ability-deflect/icon-ability.png"
+                },
+                {
+                    "name": "FRAPPE DU VENT",
+                    "description": "Genji file en avant, tranchant l’air de son katana et traversant les ennemis sur son passage. Si Genji élimine un adversaire grâce à cette capacité, il peut s’en servir immédiatement à nouveau.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/genji/ability-swift-strike/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/genji/ability-swift-strike/icon-ability.png"
+                },
+                {
+                    "name": "LAME DU DRAGON",
+                    "description": "Genji brandit son katana pendant une courte période. Il peut délivrer des coups mortels à toutes les cibles à portée jusqu’à ce qu’il rengaine son sabre.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/genji/ability-dragonblade/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/genji/ability-dragonblade/icon-ability.png"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": "HANZO",
+            "roleId": 3,
+            "description": "Les flèches polyvalentes de Hanzo peuvent révéler ses ennemis, ou se fragmenter pour toucher plusieurs cibles. Il peut également grimper aux murs pour tirer depuis une position élevée, et invoquer un gigantesque esprit dragon.",
+            "history": "Par la maîtrise de ses techniques d’archer et d’assassin, Hanzo Shimada cherche à se prouver qu’il est un guerrier sans égal. L’histoire de la famille Shimada remonte à plusieurs siècles. Ce clan d’assassins a vu son influence croître avec les années, jusqu’à devenir un vaste empire criminel engrangeant les profits de la vente d’armes et de substances illégales. En tant que premier fils du chef de famille, Hanzo avait pour devoir de succéder à son père et de régner sur l’empire Shimada. Il fut formé dès son plus jeune âge pour cette responsabilité et fit montre de grandes aptitudes pour le commandement et d’un sens inné de la stratégie et de la tactique. Il excellait également dans des domaines plus pragmatiques : les arts martiaux, l’escrime et le tir à l’arc. À la mort de son père, les anciens du clan exigèrent d’Hanzo qu’il reprenne en main son frère rebelle, afin que lui aussi puisse prendre part à la direction de l’empire Shimada. Son frère refusa d’entendre raison et Hanzo fut obligé de le tuer. Son cœur en fut brisé et il rejeta l’héritage de son père, allant finalement jusqu’à abandonner le clan et tout ce pour quoi il avait si durement travaillé. Hanzo voyage maintenant à travers le monde pour parfaire ses compétences martiales, dans l’espoir de restaurer son honneur et de chasser les fantômes de son passé.",
+            "difficulty": 3,
+            "videoHeader": "https://d1u1mce87gyfbn.cloudfront.net/hero/hanzo/intro-video.webm",
+            "videoBackground": "https://d1u1mce87gyfbn.cloudfront.net/hero/hanzo/idle-video.webm",
+            "imageProfile": "https://d1u1mce87gyfbn.cloudfront.net/hero/hanzo/hero-select-portrait.png",
+            "capacities": [
+                {
+                    "name": "ARC TEMPÊTE",
+                    "description": "Hanzo encoche une flèche et la décoche sur sa cible.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/hanzo/ability-storm-bow/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/hanzo/ability-storm-bow/icon-ability.png"
+                },
+                {
+                    "name": "FLÈCHE SONIQUE",
+                    "description": "Hanzo projette une flèche équipée d’un sonar ; celle-ci marque tous les ennemis dans son rayon de détection et les rend plus faciles à traquer pour Hanzo et ses alliés.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/hanzo/ability-sonic-arrow/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/hanzo/ability-sonic-arrow/icon-ability.png"
+                },
+                {
+                    "name": "RAFALE",
+                    "description": "Les prochaines flèches d’Hanzo sont lancées instantanément, mais leurs dégâts sont réduits.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/hanzo/ability-storm-arrows/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/hanzo/ability-storm-arrows/icon-ability.png"
+                },
+                {
+                    "name": "FENTE",
+                    "description": "Hanzo peut effectuer des doubles sauts, ce qui lui permet de changer de direction dans les airs.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/hanzo/ability-lunge/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/hanzo/ability-lunge/icon-ability.png"
+                },
+                {
+                    "name": "FRAPPE DU DRAGON",
+                    "description": "Hanzo invoque l’esprit d’un dragon qui fend les airs devant lui. Il traverse les murs sur son passage et dévore tous les ennemis rencontrés.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/hanzo/ability-dragon-strike/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/hanzo/ability-dragon-strike/icon-ability.png"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name": "CHACAL",
+            "roleId": 3,
+            "description": "Chacal a tout ce qu’il faut dans son arsenal pour interdire l’accès d’une zone à ses adversaires : un lance-grenades qui tire des projectiles rebondissants, des mines incapacitantes qui envoient valser ses ennemis et des pièges d’acier pour les immobiliser.",
+            "history": "Chacal est un fou obsédé par les explosifs qui ne vit que pour le chaos et la destruction. L’attaque sur le cœur du réacteur de l’omnium australien a définitivement modifié le paysage de l’intérieur du pays. Après la détonation, la zone s’est transformée en une terre désolée, aride et irradiée, recouverte de débris et de fragments déformés du complexe en ruine, et inhabitable pour la plus grande partie. Mais certains ont survécu. Se faisant appeler les Junkers, ils ont récupéré tout ce qu’ils pouvaient dans la carcasse de l’omnium et formé une société sans foi ni loi dans son ombre. Chacal est l’un d’entre eux, gagnant difficilement sa vie en récupérant du métal et des composants dans les ruines. Comme beaucoup d’autres, il a été affecté par les radiations. Cette pointe de folie a fait de lui la personne idéale pour manipuler de dangereux explosifs, une passion qui est devenue une véritable obsession. Il a connu la notoriété quand il a découvert un secret d’une très grande valeur dans la carcasse de l’omnium. Bien que peu de personnes connaissent la nature de sa découverte, il a néanmoins été poursuivi par des chasseurs de primes, des gangs et des opportunistes partout où il allait. Jusqu’au jour où il a fait un marché avec un homme de main des Junkers, Chopper, qui a accepté à contrecœur d’être son garde du corps personnel en échange de la moitié de ses gains. Aujourd’hui, Chacal, accompagné de Chopper, a quitté l’intérieur du pays pour s’embarquer dans une carrière de criminel international, ne laissant dans son sillage que chaos et destruction.",
+            "difficulty": 2,
+            "videoHeader": "https://d1u1mce87gyfbn.cloudfront.net/hero/junkrat/intro-video.webm",
+            "videoBackground": "https://d1u1mce87gyfbn.cloudfront.net/hero/junkrat/idle-video.webm",
+            "imageProfile": "https://d1u1mce87gyfbn.cloudfront.net/hero/junkrat/hero-select-portrait.png",
+            "capacities": [
+                {
+                    "name": "LANCE-GRENADES",
+                    "description": "Le lance-grenades de Chacal projette des grenades sur une bonne distance. Elles rebondissent pour atteindre leur destination et explosent quand elles frappent un ennemi.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/junkrat/ability-frag-launcher/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/junkrat/ability-frag-launcher/icon-ability.webm"
+                },
+                {
+                    "name": "MINE INCAPACITANTE",
+                    "description": "Après avoir placé une de ses mines incapacitantes maison, Chacal peut la déclencher pour blesser les ennemis et les faire voler dans les airs... ou se propulser lui-même en l’air.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/junkrat/ability-concussion-mine/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/junkrat/ability-concussion-mine/icon-ability.webm"
+                },
+                {
+                    "name": "PIÈGE D’ACIER",
+                    "description": "Chacal balance un piège géant à mâchoire métallique. Si un ennemi s’approche trop près du piège, il se referme, l’immobilisant et le blessant.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/junkrat/ability-steel-trap/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/junkrat/ability-steel-trap/icon-ability.webm"
+                },
+                {
+                    "name": "MAUVAIS PERDANT",
+                    "description": "Le sens de l'humour complètement azimuté de Chacal subsiste après sa mort : s’il est tué, il largue plusieurs grenades dégoupillées.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/junkrat/ability-total-mayhem/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/junkrat/ability-total-mayhem/icon-ability.webm"
+                },
+                {
+                    "name": "PNEUMASTIC",
+                    "description": "Chacal fait vrombir une bombe-pneu motorisée qui peut grimper sur les murs et les obstacles, et l’envoie rouler sur le champ de bataille. Il peut faire détoner le pneumastic à distance pour infliger d'importants dégâts aux ennemis pris dans l’explosion, ou simplement attendre qu’il explose de lui-même.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/junkrat/ability-rip-tire/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/junkrat/ability-rip-tire/icon-ability.webm"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "name": "MCCREE",
+            "roleId": 3,
+            "description": "Armé de son Pacificateur, McCree abat ses cibles avec une précision redoutable et se met à couvert plus vite que son ombre.",
+            "history": "Armé de son fidèle Pacificateur, le hors-la-loi Jesse McCree administre la justice à sa façon bien personnelle. McCree était déjà célèbre en tant que membre du fameux gang Deadlock, dont le réseau illégal de trafic d’armes et d’équipement militaire couvrait tout le Sud-Ouest américain, quand lui et ses associés furent pris en flagrant délit suite à une opération d’infiltration montée par Overwatch. Vu son adresse et son ingéniosité, on lui laissa le choix entre moisir dans une prison de haute sécurité et rallier Blackwatch, la division des opérations secrètes d’Overwatch. Il choisit la seconde option. Bien qu’initialement très cynique, il finit par se convaincre qu’il pourrait faire amende de ses fautes passées en réparant les injustices aux quatre coins du monde. McCree appréciait la flexibilité inhérente au caractère clandestin de Blackwatch, qui ne s’embarrassait pas de bureaucratie et de paperasse. Mais quand l’influence d’Overwatch se mit à décliner, des éléments peu scrupuleux de Blackwatch tentèrent de renverser complètement l’organisation pour la mettre à leur service. Ne voulant pas prendre part à ces luttes intestines, McCree prit le maquis et disparut de la circulation. Il refit surface plusieurs années plus tard en tant que pistolero mercenaire. Mais même si toutes sortes de gens sont prêts à employer ses talents, il ne se bat que pour les causes qu'il estime justes.",
+            "difficulty": 2,
+            "videoHeader": "https://d1u1mce87gyfbn.cloudfront.net/hero/mccree/intro-video.webm",
+            "videoBackground": "https://d1u1mce87gyfbn.cloudfront.net/hero/mccree/idle-video.webm",
+            "imageProfile": "https://d1u1mce87gyfbn.cloudfront.net/hero/mccree/hero-select-portrait.png",
+            "capacities": [
+                {
+                    "name": "PACIFICATEUR",
+                    "description": "McCree tire avec son fidèle six-coups. Il peut aussi actionner directement le chien pour vider très rapidement tout son barillet.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/mccree/ability-peacekeeper/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/mccree/ability-peacekeeper/icon-ability.png"
+                },
+                {
+                    "name": "ROULADE",
+                    "description": "McCree plonge dans la direction de son déplacement et se redresse en ayant rechargé son revolver.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/mccree/ability-combat-roll/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/mccree/ability-combat-roll/icon-ability.png"
+                },
+                {
+                    "name": "GRENADE FLASH",
+                    "description": "McCree jette une grenade aveuglante qui explose peu après avoir quitté sa main. La déflagration étourdit les ennemis dans un petit rayon.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/mccree/ability-flashbang/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/mccree/ability-flashbang/icon-ability.png"
+                },
+                {
+                    "name": "IMPLACABLE",
+                    "description": "Concentration. Appréciation. Prise en main. McCree prend quelques précieux instants pour viser. Quand il se décide à tirer, il abat tous les ennemis dans son champ de vision. Plus ses cibles sont faibles, moins il aura besoin de viser pour que le tir soit mortel.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/mccree/ability-deadeye/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/mccree/ability-deadeye/icon-ability.png"
+                },
+                {
+                    "name": "PNEUMASTIC",
+                    "description": "Chacal fait vrombir une bombe-pneu motorisée qui peut grimper sur les murs et les obstacles, et l’envoie rouler sur le champ de bataille. Il peut faire détoner le pneumastic à distance pour infliger d'importants dégâts aux ennemis pris dans l’explosion, ou simplement attendre qu’il explose de lui-même.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/junkrat/ability-rip-tire/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/junkrat/ability-rip-tire/icon-ability.png"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "name": "MEI",
+            "roleId": 3,
+            "description": "Mei manipule le climat pour ralentir ses ennemis et protéger les endroits importants. Son canon endothermique projette de redoutables pointes de glace ou libère un flux de givre, et elle peut entrer en cryostase pour survivre aux contre-attaques, ou bloquer le chemin de l’équipe adverse avec un mur de glace.",
+            "history": "Mei est une scientifique qui a décidé de se battre pour la préservation de l’environnement. Même si, pour beaucoup, l’avènement des nouvelles technologies, la croissance rapide de la population omniaque et l’accroissement considérable de la consommation des ressources étaient responsables de phénomènes climatiques de plus en plus violents, leur cause véritable restait inconnue. À la recherche d’une solution, Overwatch installa une série d’éco-observatoires dans des lieux-clés reculés du monde entier. Mei-Ling Zhou faisait partie de cette initiative prévue pour durer plusieurs années. Climatologue hors pair, elle avait introduit des innovations ultra-pointues dans le champ de la manipulation du climat qui protégeaient les zones à risque en Asie et ailleurs. Elle poursuivait ses recherches dans une station de surveillance du programme, l’Observatoire : Antarctique, lorsque cette dernière fut frappée par un désastre : une soudaine tempête polaire d’une grande violence balaya l’installation et la coupa du monde extérieur, laissant les bâtiments endommagés et les scientifiques coupés du monde. Leurs provisions diminuant, ils décidèrent d’entrer en cryostase dans une ultime tentative pour survivre jusqu’à l’arrivée des secours. Mais les secours ne vinrent jamais. La chambre cryogénique de l’équipe fut finalement découverte des années plus tard. Mei, toujours en hibernation, fut la seule survivante. Le monde dans lequel Mei s’éveilla avait beaucoup changé. Overwatch n’existait plus, les problèmes climatiques, déjà graves, avaient encore empiré, et tous les éco-observatoires avaient cessé de fonctionner. Tous les indices qu’ils avaient découverts étaient perdus. Mei a décidé de continuer son travail par elle-même. Équipée d'une version portative de sa technologie de manipulation climatique, elle voyage à travers le monde, dans l’espoir de rétablir un éco-réseau et de remonter aux sources des menaces contre l’écosystème de la planète.",
+            "difficulty": 3,
+            "videoHeader": "https://d1u1mce87gyfbn.cloudfront.net/hero/mei/intro-video.webm",
+            "videoBackground": "https://d1u1mce87gyfbn.cloudfront.net/hero/mei/idle-video.webm",
+            "imageProfile": "https://d1u1mce87gyfbn.cloudfront.net/hero/mei/hero-select-portrait.png",
+            "capacities": [
+                {
+                    "name": "CANON ENDOTHERMIQUE",
+                    "description": "Le blaster de Mei libère un flux de givre concentré à courte portée qui endommage, ralentit et finit par geler sur place les ennemis. Mei peut aussi s’en servir pour tirer des glaçons à portée moyenne.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/mei/ability-endothermic-blaster/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/mei/ability-endothermic-blaster/icon-ability.png"
+                },
+                {
+                    "name": "CRYOSTASE",
+                    "description": "Mei s’entoure instantanément d'un épais bloc de glace. Elle se soigne et échappe aux dégâts tant qu’elle est à l’intérieur, mais elle ne peut ni se déplacer, ni utiliser de capacités.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/mei/ability-cryo-freeze/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/mei/ability-cryo-freeze/icon-ability.png"
+                },
+                {
+                    "name": "MUR DE GLACE",
+                    "description": "Mei génère un énorme mur de glace qui bouche les lignes de vue, empêche le déplacement et bloque les attaques.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/mei/ability-ice-wall/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/mei/ability-ice-wall/icon-ability.png"
+                },
+                {
+                    "name": "BLIZZARD",
+                    "description": "Mei déploie un drone de modification du climat qui émet des bourrasques de vent et de neige dans une large zone. Les ennemis pris dans le blizzard sont ralentis et subissent des dégâts, et ceux qui s’attardent trop longtemps sont complètement gelés.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/mei/ability-blizzard/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/mei/ability-blizzard/icon-ability.png"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "name": "PHARA",
+            "roleId": 3,
+            "description": "Fendant les airs dans son armure de combat et armée d’un lance-roquettes tirant des projectiles incapacitants ou dévastateurs, Pharah jouera assurément un rôle crucial dans chaque bataille.",
+            "history": "Fariha Amari a le sens du devoir dans le sang. Elle descend d’une longue lignée de militaires tous plus décorés les uns que les autres et brûle du désir de servir elle aussi avec honneur. Quand elle était enfant, Fariha rêvait de suivre les traces de sa mère et de s’enrôler à son tour pour maintenir la paix dans le monde sous la bannière d’Overwatch. Elle s’engagea dans l’armée égyptienne, où sa ténacité et son sens tactique lui valurent de gravir les échelons du commandement. Elle était un officier courageux qui méritait la loyauté de ceux qui servaient sous ses ordres. Avec son dossier exemplaire, Fariha était en bonne place pour rejoindre les rangs d’Overwatch, mais avant qu’elle ne puisse saisir cette opportunité, l’organisation avait été dissoute. Après son départ de l’armée assorti d’une décoration pour services rendus, on lui offrit un poste au sein de Helix Security International, une agence de sécurité privée responsable de la protection du site de recherche des intelligences artificielles sous le plateau de Gizeh. Ce site top-secret était réputé essentiel pour la sécurité non seulement de la région, mais aussi de nombreux pays à travers la planète. Fariha accepta volontiers cette prestigieuse affectation et fut formée à l’utilisation du Raptora modèle VI, une armure motorisée expérimentale conçue pour allier une mobilité fulgurante à une puissance de feu dévastatrice. Sous le nom de code de « Pharah », elle assure la sécurité du site de recherche. Même si elle déplore la fin d’Overwatch, elle rêve encore de pouvoir un jour se battre pour l’intérêt général et pour améliorer le monde.",
+            "difficulty": 1,
+            "videoHeader": "https://d1u1mce87gyfbn.cloudfront.net/hero/pharah/intro-video.webm",
+            "videoBackground": "https://d1u1mce87gyfbn.cloudfront.net/hero/pharah/idle-video.webm",
+            "imageProfile": "https://d1u1mce87gyfbn.cloudfront.net/hero/pharah/hero-select-portrait.png",
+            "capacities": [
+                {
+                    "name": "LANCE-ROQUETTES FALCON",
+                    "description": "Pharah utilise son arme principale pour envoyer des roquettes qui infligent des dégâts significatifs dans une large zone de déflagration.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/pharah/ability-rocket-launcher/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/pharah/ability-rocket-launcher/icon-ability.png"
+                },
+                {
+                    "name": "RÉACTEURS",
+                    "description": "Propulsée par les réacteurs de son armure, Pharah peut s’élever en altitude.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/pharah/ability-jump-jet/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/pharah/ability-jump-jet/icon-ability.png"
+                },
+                {
+                    "name": "CONFLAGRATION",
+                    "description": "Pharah libère une roquette qui repousse violemment tous les ennemis avec lesquels elle entre en contact.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/pharah/ability-concussive-blast/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/pharah/ability-concussive-blast/icon-ability.png"
+                },
+                {
+                    "name": "BARRAGE",
+                    "description": "Pharah dirige une salve continue de mini-roquettes pour détruire des groupes d’ennemis.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/pharah/ability-barrage/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/pharah/ability-barrage/icon-ability.png"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "name": "FAUCHEUR",
+            "roleId": 3,
+            "description": "Avec Pompes funèbres, sa capacité spectrale lui permettant d’éviter tout dégât et son pouvoir à se déplacer dans les ombres, Faucheur est l’un des êtres les plus redoutables de la planète.",
+            "history": "On parle d’un terroriste sous une grande cape noire connu seulement sous le surnom de Faucheur. Son identité et ses motivations sont un mystère. La seule chose que l’on sache, c’est que là où il apparaît, la mort ne tarde jamais à suivre. Faucheur est un mercenaire extrêmement instable, un tueur implacable et impitoyable responsable d’attaques terroristes un peu partout dans le monde. Il a participé à de nombreux conflits armés au cours des dernières décennies sans jamais montrer la moindre loyauté envers quelque cause ou organisation que ce soit. Les survivants le décrivent comme une ombre noire traversant indemne les champs de bataille les plus cauchemardesques. Les corps qu’il a laissés dans son sillage sont des coquilles vides et pâles, dépouillées de toute vie et ayant subi une dégradation cellulaire extrême. Il est possible que Faucheur soit le résultat d’une expérience génétique ratée qui forcerait ses cellules à se décomposer et à se régénérer simultanément à un rythme hyper-accéléré. Ceux qui tentent de suivre ses déplacements commencent à voir un schéma dans ses apparitions. Ils pensent que Faucheur traque les anciens agents d’Overwatch pour les éliminer de façon systématique.",
+            "difficulty": 1,
+            "videoHeader": "https://d1u1mce87gyfbn.cloudfront.net/hero/reaper/intro-video.webm",
+            "videoBackground": "https://d1u1mce87gyfbn.cloudfront.net/hero/reaper/idle-video.webm",
+            "imageProfile": "https://d1u1mce87gyfbn.cloudfront.net/hero/reaper/hero-select-portrait.png",
+            "capacities": [
+                {
+                    "name": "POMPES FUNÈBRES",
+                    "description": "Faucheur met ses ennemis en pièces avec ses deux fusils à pompe.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/reaper/ability-hellfire-shotguns/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/reaper/ability-hellfire-shotguns/icon-ability.png"
+                },
+                {
+                    "name": "FORME SPECTRALE",
+                    "description": "Faucheur devient une ombre pendant une courte période. Sous cette forme spectrale, il ne peut être blessé et il est capable de passer au travers de ses ennemis mais ne peut pas utiliser son armement ou ses autres capacités.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/reaper/ability-wraith-form/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/reaper/ability-wraith-form/icon-ability.png"
+                },
+                {
+                    "name": "VOIE DES OMBRES",
+                    "description": "Après avoir marqué une destination de son choix, Faucheur disparaît pour réapparaître à cet endroit.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/reaper/ability-shadow-step/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/reaper/ability-shadow-step/icon-ability.png"
+                },
+                {
+                    "name": "ÉCLOSION MORTELLE",
+                    "description": "Quasi indiscernable, Faucheur vide ses deux fusils à pompe à tombeau ouvert, infligeant de très lourds dégâts à tous les ennemis proches.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/reaper/ability-death-blossom/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/reaper/ability-death-blossom/icon-ability.png"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "name": "SOLDAT : 76",
+            "roleId": 3,
+            "description": "Équipé d’armes ultra avancées, dont un fusil à impulsions expérimental également capable de tirer plusieurs roquettes LX à la fois, soldat : 76 est un guerrier rapide et expérimenté qui sait soutenir ses alliés.",
+            "history": "Actuellement poursuivi dans une chasse à l’homme internationale, le justicier connu sous le nom de soldat : 76 mène une vendetta personnelle pour découvrir la vérité derrière la chute d’Overwatch. Le soldat : 76 s’est fait connaître du public par une série d’attaques aux quatre coins du monde ciblant des institutions financières, des organismes obscurs et des centres d’Overwatch sécurisés. Bien que le reste du monde ne comprenne pas quels sont ses intentions, certains affirment qu’il s’agit d’un ancien agent d’Overwatch, déterminé à apporter la lumière sur la conspiration qui a détruit l’organisation. Bien que son identité reste un mystère, le bruit court qu’il serait un ancien membre formé dans le « programme d’amélioration de soldats » américain. Il possède des capacités physiques qui dépassent celles des autres soldats, ainsi que d’autres améliorations qui font de lui un combattant hors pair. De plus, il utilise un arsenal de pointe, en grande partie volé lors d’expéditions dans les locaux d’Overwatch. Dans sa quête effrénée à la recherche des responsables de la chute d’Overwatch, le soldat : 76 est prêt à tout pour les traduire en justice.",
+            "difficulty": 1,
+            "videoHeader": "https://d1u1mce87gyfbn.cloudfront.net/hero/soldier-76/intro-video.webm",
+            "videoBackground": "https://d1u1mce87gyfbn.cloudfront.net/hero/soldier-76/idle-video.webm",
+            "imageProfile": "https://d1u1mce87gyfbn.cloudfront.net/hero/soldier-76/hero-select-portrait.png",
+            "capacities": [
+                {
+                    "name": "FUSIL À IMPULSIONS",
+                    "description": "Le fusil à impulsions entièrement automatique du soldat : 76 reste particulièrement stable lorsque ce dernier vide son chargeur.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/soldier-76/ability-heavy-pulse-rifle/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/soldier-76/ability-heavy-pulse-rifle/icon-ability.png"
+                },
+                {
+                    "name": "ROQUETTES LX",
+                    "description": "Le fusil à impulsions du soldat : 76 tire plusieurs petites roquettes à la fois. L’explosion des roquettes inflige des dégâts aux ennemis dans une petite zone.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/soldier-76/ability-helix-rockets/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/soldier-76/ability-helix-rockets/icon-ability.png"
+                },
+                {
+                    "name": "SPRINT",
+                    "description": "Qu’il ait besoin de fuir les tirs ennemis ou de revenir au combat rapidement, le soldat : 76 peut foncer droit devant lui. Toute action autre qu’une course vers l’avant met fin à son Sprint.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/soldier-76/ability-sprint/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/soldier-76/ability-sprint/icon-ability.png"
+                },
+                {
+                    "name": "CHAMP BIOTIQUE",
+                    "description": "Le soldat : 76 pose au sol un émetteur biotique. L’énergie ainsi projetée soigne 76 et ses équipiers qui se trouvent dans le champ d’action.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/soldier-76/ability-biotic-field/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/soldier-76/ability-biotic-field/icon-ability.png"
+                },
+                {
+                    "name": "VISIÈRE TACTIQUE",
+                    "description": "La visière tactique de localisation du soldat : 76 « verrouille » la menace la plus proche de son viseur. Si un ennemi quitte son champ de vision, le soldat : 76 peut rapidement changer de cible.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/soldier-76/ability-tactical-visor/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/soldier-76/ability-tactical-visor/icon-ability.png"
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "name": "SOMBRA",
+            "roleId": 3,
+            "description": "Ses talents de camouflage et ses attaques affaiblissantes font de Sombra une experte en infiltration. En piratant ses ennemis pour les déstabiliser, elle en fait des cibles faciles à éliminer tandis que son IEM peut conférer un avantage de poids contre des groupes entiers d’adversaires. Les capacités de transduction et de camouflage de Sombra en font une cible quasi insaisissable.",
+            "history": "Comptant parmi les hackers les plus réputés du monde, Sombra se sert des informations qu’elle dérobe pour manipuler les détenteurs du pouvoir. Bien avant d’adopter le pseudonyme de « Sombra », ░░░░░░ comptait parmi les milliers d’orphelins de la crise des Omniums. Les infrastructures du pays ayant été pour la plupart détruites, elle doit sa survie à son talent naturel pour l’informatique et le piratage. Après avoir rejoint le gang mexicain Los Muertos, ░░░░░░ a contribué à leurs desseins de révolution contre le gouvernement. Les membres de Los Muertos étaient convaincus que la reconstruction du Mexique avait essentiellement profité aux classes riches et influentes, au détriment des plus démunis. Enhardie par ses nombreux succès, ░░░░░░ fut prise au dépourvu lorsqu’elle mit le doigt dans l’engrenage d’une conspiration mondiale, dont les responsables connaissaient même son existence. Voyant sa sécurité compromise, ░░░░░░ dut effacer toute trace de son identité et s’efforça de disparaître du radar. Elle refit surface sous le nom de Sombra, plus forte et déterminée que jamais à percer à jour le complot qu’elle avait découvert. Sombra entreprit des piratages encore plus audacieux et ses exploits lui valurent une certaine admiration, notamment de la part de la Griffe. Ayant rejoint les rangs de l’organisation, elle serait derrière les cyber-attaques massives ayant touché les corporations liées de près au gouvernement. Ses efforts ont encouragé une révolution populaire contre LumériCo au Mexique et ouvert une brèche de sécurité dans l’usine Volskaya, qui fabrique les armes de défense anti-omniaques de la Russie. Avec l’appui des nombreuses ressources de la Griffe, Sombra peut aujourd’hui se concentrer sur son véritable objectif : percer le secret du complot et détourner ce pouvoir à ses propres fins.",
+            "difficulty": 3,
+            "videoHeader": "https://d1u1mce87gyfbn.cloudfront.net/hero/sombra/intro-video.webm",
+            "videoBackground": "https://d1u1mce87gyfbn.cloudfront.net/hero/sombra/idle-video.webm",
+            "imageProfile": "https://d1u1mce87gyfbn.cloudfront.net/hero/sombra/hero-select-portrait.png",
+            "capacities": [
+                {
+                    "name": "PISTOLET MITRAILLEUR",
+                    "description": "Le pistolet mitrailleur automatique de Sombra tire à courte portée.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/sombra/ability-machine-pistol/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/sombra/ability-machine-pistol/icon-ability.png"
+                },
+                {
+                    "name": "PIRATAGE",
+                    "description": "Sombra peut pirater ses ennemis et les priver temporairement de leurs capacités, ou corrompre les kits de soins pour empêcher ses adversaires de s’en servir.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/sombra/ability-hack/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/sombra/ability-hack/icon-ability.png"
+                },
+                {
+                    "name": "FURTIVITÉ",
+                    "description": "Sombra devient invisible et sa vitesse augmente considérablement. Le camouflage est désactivé si vous attaquez, si vous utilisez des capacités offensives ou si vous subissez des dégâts. Sombra ne peut pas capturer d’objectif tout en étant invisible.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/sombra/ability-thermoptic-camo/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/sombra/ability-thermoptic-camo/icon-ability.png"
+                },
+                {
+                    "name": "TRANSDUCTEUR",
+                    "description": "Sombra lance une balise de transduction vers laquelle elle peut se téléporter instantanément tant que celle-ci est active (même si la balise se trouve encore dans les airs).",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/sombra/ability-translocator/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/sombra/ability-translocator/icon-ability.png"
+                },
+                {
+                    "name": "IEM",
+                    "description": "Sombra génère une large vague d’énergie électromagnétique qui désactive les boucliers ennemis et pirate tous les adversaires touchés par l’onde de choc.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/sombra/ability-emp/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/sombra/ability-emp/icon-ability.png"
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "name": "SYMMETRA",
+            "roleId": 3,
+            "description": "Symmetra utilise son Projecteur à photons pour éliminer ses adversaires, protéger ses alliés, placer des téléporteurs et déployer des tourelles sentinelles à particules.",
+            "history": "Symmetra peut littéralement altérer la réalité. En manipulant des assemblages photoformés, elle façonne le monde comme elle souhaiterait qu’il soit, dans l’espoir de concevoir une société parfaite. Après la crise des Omniums, la société Vishkar, basée dans le sud de l’Inde, entreprit un laborieux processus de création de nouvelles cités autosuffisantes pour abriter les populations déplacées par le conflit. L’une de ces cités, Utopée, fut créée en utilisant une technologie révolutionnaire de photoformation qui permettait aux architectes de modeler en un clin d’œil les rues, les espaces de vie et les services publics. Après avoir été reconnue comme l’une des rares personnes capables de devenir un architecte façonneur de lumière, la jeune Satya Vaswani fut arrachée à l’extrême pauvreté de son milieu pour intégrer l’école d’architecture de Vishkar. Parfaitement esseulée dans cette nouvelle vie, Satya se dévoua entièrement à son éducation. Elle perçut rapidement les applications possibles de la technologie et devint l’une des meilleures élèves de l’école. Satya avait une approche de la photoformation différente de celle de ses condisciples et de leurs procédures de construction mécaniques. Elle-même érigeait ses assemblages en s’inspirant des mouvements de danse traditionnelle de sa terre natale. Même si elle était une des architectes les plus doués d’Utopée, Vishkar sut voir un tout autre potentiel dans les capacités de Satya. Sous le pseudonyme de « Symmetra », elle fut envoyée pour effectuer des missions clandestines aux quatre coins du monde afin de promouvoir les intérêts de la corporation et de renforcer son influence internationale. Symmetra croit que ses actes servent l’intérêt général de la société. Mais elle se demande parfois si le contrôle et l’ordre qu’elle appelle de ses vœux sont vraiment ce qui convient le mieux à l’humanité.",
+            "difficulty": 2,
+            "videoHeader": "https://d1u1mce87gyfbn.cloudfront.net/hero/symmetra/intro-video.webm",
+            "videoBackground": "https://d1u1mce87gyfbn.cloudfront.net/hero/symmetra/idle-video.webm",
+            "imageProfile": "https://d1u1mce87gyfbn.cloudfront.net/hero/symmetra/hero-select-portrait.png",
+            "capacities": [
+                {
+                    "name": "PROJECTEUR À PHOTONS",
+                    "description": "L’arme de Symmetra émet un rayon à courte portée, qui inflige des dégâts continus augmentant sur la durée. Le projecteur peut aussi envoyer une boule d’énergie surchargée qui inflige des dégâts importants.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/symmetra/ability-photon-projector/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/symmetra/ability-photon-projector/icon-ability.png"
+                },
+                {
+                    "name": "TOURELLE SENTINELLE",
+                    "description": "Symmetra installe une petite tourelle qui projette automatiquement des décharges réduisant la vitesse de l’ennemi le plus proche. Jusqu’à trois tourelles peuvent être déployées simultanément sur le champ de bataille.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/symmetra/ability-sentry-turret/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/symmetra/ability-sentry-turret/icon-ability.png"
+                },
+                {
+                    "name": "TÉLÉPORTEUR",
+                    "description": "Symmetra place à distance un socle de sortie temporaire et le connecte à celui placé à sa position actuelle. Les alliés (ainsi que certaines de leurs capacités, comme le Pneumastic de Chacal) peuvent voyager instantanément d’un socle à l’autre.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/symmetra/ability-teleporter-pad/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/symmetra/ability-teleporter-pad/icon-ability.png"
+                },
+                {
+                    "name": "ÉCRAN PHOTONIQUE",
+                    "description": "Symmetra déploie une barrière énergétique massive capable de traverser la carte et bloquer les attaques à distance.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/symmetra/ability-photon-barrier/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/symmetra/ability-photon-barrier/icon-ability.png"
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "name": "TORBJÖRN",
+            "roleId": 3,
+            "description": "L’incroyable arsenal de Torbjörn comprend un pistolet à rivets et un marteau, ainsi qu’une forge personnelle servant à construire ou améliorer des tourelles et à distribuer des modules d’armure.",
+            "history": "À son apogée, Overwatch possédait un arsenal parmi les plus avancés de la planète, dont la majorité des pièces pouvaient être attribuées à l’atelier d’un génial ingénieur, Torbjörn Lindholm. Avant la crise des Omniums, Torbjörn avait obtenu une certaine notoriété pour sa conception de systèmes d’armement en usage dans plusieurs pays. Mais il pensait que la technologie devait être au service de l’amélioration de l’humanité, ce qui l’opposait à ses employeurs qui souhaitaient contrôler ses armes au moyen d’intelligences artificielles en réseau. Torbjörn était très méfiant vis-à-vis de la conscience robotique. Alors que nombre de ses contemporains voyaient cela comme de la paranoïa sans fondement, ses pires craintes devaient se réaliser lorsque l’ensemble de la population robotique mondiale se retourna contre ses créateurs au cours de la crise des Omniums. Son génie de l’ingénierie lui valut d’être recruté dans la première équipe d’intervention d’Overwatch, et ses nombreuses inventions furent constitutives de la résolution de ce conflit. Dans les années qui suivirent, Overwatch devint une force internationale de maintien de la paix, et Torbjörn y demeura un élément crucial pour répondre aux besoins de l’organisation en matière d’expertise technologique et d’armement. Immédiatement après la chute d’Overwatch, une grande quantité d’armes conçues par Torbjörn furent volées ou stockées en divers points du globe. Comme il se tient pour responsable de ses créations, Torbjörn est bien décidé à les empêcher de tomber entre de mauvaises mains et de faire des ravages sur des innocents.",
+            "difficulty": 2,
+            "videoHeader": "https://d1u1mce87gyfbn.cloudfront.net/hero/torbjorn/intro-video.webm",
+            "videoBackground": "https://d1u1mce87gyfbn.cloudfront.net/hero/torbjorn/idle-video.webm",
+            "imageProfile": "https://d1u1mce87gyfbn.cloudfront.net/hero/torbjorn/hero-select-portrait.png",
+            "capacities": [
+                {
+                    "name": "PISTOLET À RIVETS",
+                    "description": "Avec son pistolet, Torbjörn tire des rivets à longue portée ou des projectiles de métal surchauffé en petites rafales à courte portée.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/torbjorn/ability-rivet-gun/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/torbjorn/ability-rivet-gun/icon-ability.png"
+                },
+                {
+                    "name": "MARTEAU DE FORGE",
+                    "description": "Torbjörn utilise son marteau polyvalent pour construire, améliorer et réparer des tourelles, et peut l’utiliser comme arme en cas d’urgence.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/torbjorn/ability-forge-hammer/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/torbjorn/ability-forge-hammer/icon-ability.png"
+                },
+                {
+                    "name": "DÉPLOIEMENT DE TOURELLE",
+                    "description": "Torbjörn construit un canon automatique avec un système de suivi des ennemis. Il peut utiliser la ferraille récupérée sur les ennemis ou alliés abattus pour l’améliorer, augmentant ses points de vie et y ajoutant un second canon et un lance-roquettes.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/torbjorn/ability-build-turret/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/torbjorn/ability-build-turret/icon-ability.png"
+                },
+                {
+                    "name": "MODULE D’ARMURE",
+                    "description": "Torbjörn fabrique des pièces d’armure que lui-même ou ses alliés peuvent ramasser pour absorber une partie des dégâts.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/torbjorn/ability-armor-pack/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/torbjorn/ability-armor-pack/icon-ability.png"
+                },
+                {
+                    "name": "CŒUR DE MAGMA",
+                    "description": "Déclencher la surchauffe de sa forge personnelle permet à Torbjörn de gagner une quantité significative d’armure et de ferraille, mais aussi d’attaquer (et de construire ou de réparer des tourelles) bien plus rapidement qu’en temps normal.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/torbjorn/ability-molten-core/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/torbjorn/ability-molten-core/icon-ability.png"
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "name": "TRACER",
+            "roleId": 3,
+            "description": "Armées de deux pulseurs, de bombes à retardement énergétiques et d’une langue bien pendue, Tracer est capable de passer immédiatement d’un endroit à un autre et de remonter dans le temps pour mieux combattre les injustices à travers le monde.",
+            "history": "L’ancien agent d’Overwatch connu sous le pseudonyme de Tracer est une aventurière capable de se déplacer dans le temps et une force irrépressible au service du bien. Lena Oxton (nom de code « Tracer ») était la plus jeune recrue de toute l’histoire du programme de vol expérimental d’Overwatch. Ses talents de pilote et son intrépidité lui valurent d’être sélectionnée pour tester un prototype de chasseur-téléporteur, le Sillage. Malheureusement, la matrice de téléportation de l’avion eut une avarie lors du premier vol d’essai et disparut. Lena fut présumée morte. Elle finit par réapparaître des mois plus tard, profondément changée par l’épreuve qu’elle venait de traverser : sa structure moléculaire avait été désynchronisée par rapport à l’écoulement normal du temps. Souffrant de « chrono-dissociation », elle était devenue une sorte de fantôme vivant, disparaissant irrégulièrement pendant des heures ou des jours et incapable de maintenir sa consistance physique dans les rares moments où elle était présente. Les médecins et les chercheurs d’Overwatch étaient perplexes, et son cas semblait désespéré jusqu’à ce qu’un scientifique appelé Winston parvienne à concevoir le chrono-accélérateur, un appareil capable d’ancrer Tracer dans le présent. Cela permit également à Tracer de contrôler son propre flux temporel et de le ralentir ou de l’accélérer à volonté. Grâce à cette nouvelle compétence, elle devint l’un des agents les plus efficaces d’Overwatch. Depuis la dissolution de l’organisation, Tracer continue de lutter pour la bonne cause et de combattre les injustices dès qu’elle en a l’occasion.",
+            "difficulty": 2,
+            "videoHeader": "https://d1u1mce87gyfbn.cloudfront.net/hero/tracer/intro-video.webm",
+            "videoBackground": "https://d1u1mce87gyfbn.cloudfront.net/hero/tracer/idle-video.webm",
+            "imageProfile": "https://d1u1mce87gyfbn.cloudfront.net/hero/tracer/hero-select-portrait.png",
+            "capacities": [
+                {
+                    "name": "PULSEURS",
+                    "description": "Tracer a une cadence de tir très rapide grâce à ses pistolets.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/tracer/ability-pulse-pistols/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/tracer/ability-pulse-pistols/icon-ability.png"
+                },
+                {
+                    "name": "TRANSFERT",
+                    "description": "Tracer fonce droit devant elle et réapparaît quelques mètres plus loin. Elle peut cumuler jusqu’à trois charges de transfert, et en génère régulièrement à quelques secondes d’intervalle.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/tracer/ability-blink/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/tracer/ability-blink/icon-ability.png"
+                },
+                {
+                    "name": "RAPPEL",
+                    "description": "Tracer bondit en arrière dans le temps et récupère les points de vie et les munitions dont elle disposait, ainsi que sa position précise sur la carte quelques secondes plus tôt.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/tracer/ability-recall/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/tracer/ability-recall/icon-ability.png"
+                },
+                {
+                    "name": "BOMBE À IMPULSION",
+                    "description": "Tracer lance une grosse charge explosive qui adhère à n’importe quelle surface, ou à l’adversaire ayant le malheur de la recevoir. Après un court délai, la bombe explose en infligeant des dégâts importants à tous les ennemis dans la zone de déflagration.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/tracer/ability-pulse-bomb/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/tracer/ability-pulse-bomb/icon-ability.png"
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "name": "FATALE",
+            "roleId": 3,
+            "description": "Fatale emploie tous les moyens à sa disposition pour éliminer ses cibles : des mines qui diffusent un gaz toxique, une visière qui confère une vision infrarouge à son équipe et un puissant fusil à lunette qui peut tirer en mode automatique.",
+            "history": "Fatale est l’assassin parfait : une tueuse patiente, efficace et impitoyable qui ne laisse jamais transparaître aucune émotion ni le moindre remord. On raconte que dans son ancienne vie, Fatale était l’épouse de Gérard Lacroix, un agent d’Overwatch responsable des opérations contre l’organisation terroriste appelée la Griffe. Après plusieurs tentatives infructueuses pour éliminer Gérard, la Griffe décida de s’en prendre à sa femme pour l’atteindre. Amélie fut kidnappée par ses agents et soumise à un programme intense de reformatage neuronal. Sa volonté fut balayée, sa personnalité effacée et elle fut reconditionnée pour être un agent dormant. Elle fut ensuite retrouvée par des agents d’Overwatch, apparemment sans séquelle, et renvoyée à sa vie civile. Deux semaines plus tard, elle tuait Gérard dans son sommeil. Une fois sa mission terminée, Amélie retourna auprès de la Griffe et ils achevèrent de la transformer en arme vivante. Elle reçut un entraînement intensif et des altérations physiologiques. Les battements de son cœur furent considérablement ralentis, ce qui donna une teinte bleutée à sa peau et inhiba sa capacité à ressentir des émotions humaines. Amélie n’existait plus. Aujourd’hui, Fatale est l’assassin le plus efficace de la Griffe, et elle ne ressent plus rien hormis la satisfaction du travail bien fait.",
+            "difficulty": 2,
+            "videoHeader": "https://d1u1mce87gyfbn.cloudfront.net/hero/widowmaker/intro-video.webm",
+            "videoBackground": "https://d1u1mce87gyfbn.cloudfront.net/hero/widowmaker/idle-video.webm",
+            "imageProfile": "https://d1u1mce87gyfbn.cloudfront.net/hero/widowmaker/hero-select-portrait.png",
+            "capacities": [
+                {
+                    "name": "BAISER DE LA VEUVE",
+                    "description": "Fatale est équipée d’un fusil polyvalent idéal pour abattre à la lunette les cibles les plus lointaines. Il peut aussi être utilisé en mode automatique sur les cibles à moyenne portée.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/widowmaker/ability-widows-kiss/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/widowmaker/ability-widows-kiss/icon-ability.png"
+                },
+                {
+                    "name": "GRAPPIN",
+                    "description": "Fatale peut envoyer un grappin vers la position qu’elle vise. Une fois le grappin arrimé, elle est rapidement attirée le long de son câble, ce qui lui permet d’améliorer sa visibilité du champ de bataille et d’esquiver ou de contourner des cibles.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/widowmaker/ability-grappling-hook/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/widowmaker/ability-grappling-hook/icon-ability.png"
+                },
+                {
+                    "name": "MINE VENIMEUSE",
+                    "description": "Fatale applique des mines venimeuses à armement rapide qui adhèrent à quasiment n’importe quelle surface. Lorsqu’une cible s’aventure à portée du détecteur de mouvement intégré à la mine, cette dernière explose en dégageant un gaz empoisonné qui affecte tous les ennemis à proximité.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/widowmaker/ability-venom-mine/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/widowmaker/ability-venom-mine/icon-ability.png"
+                },
+                {
+                    "name": "INFRAVISION",
+                    "description": "La visière de reconnaissance de Fatale lui permet de voir la signature thermique de ses cibles, même au travers des murs ou autres obstacles pendant un certain temps. Cette perception améliorée est partagée avec ses alliés.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/widowmaker/ability-infra-sight/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/widowmaker/ability-infra-sight/icon-ability.png"
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "name": "ANA",
+            "roleId": 2,
+            "description": "L’arsenal polyvalent d’Ana lui permet de soigner et de renforcer ses alliés à distance, tandis que son fusil biotique, ses fléchettes tranquillisantes et ses grenades biotiques neutralisent quiconque menace ses camarades.",
+            "history": "Membre fondateur d’Overwatch, Ana met son talent et son expertise au service de la défense de sa patrie et de ses proches. L’Égypte ayant payé un lourd tribut lors de la crise des Omniums, les services de sécurité du pays, affaiblis et en sous-effectif, choisirent de se tourner vers des snipers tels qu’Ana Amari, alors considérée comme l’un des meilleurs éléments du pays. Son adresse, sa capacité à prendre des décisions et son instinct l’amenèrent naturellement à rejoindre les troupes d’Overwatch, qui mirent fin à la guerre. Suite au succès de cette mission, Ana fut promue au rang de capitaine et servit de nombreuses années en tant que second du commandant Morrison. Malgré ses responsabilités accrues, Ana refusa d’être éloignée des opérations de combat. Elle continua d’opérer sur le terrain jusqu’à la cinquantaine, mais fut déclarée morte après avoir été neutralisée par un agent de la Griffe connu sous le nom de « Fatale », lors d’une prise d’otages. Ana a survécu à des blessures graves et à la perte de son œil droit. Pendant sa convalescence, le poids d’une vie entière consacrée au combat se fit sentir et elle décida qu’il valait mieux rester morte aux yeux du monde. Les années passant, et voyant sa patrie de plus en plus menacée, elle comprit qu’elle avait toujours le désir de protéger les siens. Après avoir « réquisitionné » l’armement d’Overwatch, Ana est de retour pour défendre la paix face aux menaces qui pèsent sur la sécurité et la stabilité de la région.",
+            "difficulty": 3,
+            "videoHeader": "https://d1u1mce87gyfbn.cloudfront.net/hero/ana/intro-video.webm",
+            "videoBackground": "https://d1u1mce87gyfbn.cloudfront.net/hero/ana/idle-video.webm",
+            "imageProfile": "https://d1u1mce87gyfbn.cloudfront.net/hero/ana/hero-select-portrait.png",
+            "capacities": [
+                {
+                    "name": "FUSIL BIOTIQUE",
+                    "description": "Le fusil d’Ana projette des fléchettes qui régénèrent les points de vie de ses alliés ou infligent des dégâts continus à ses ennemis. La lunette de son fusil lui permet de zoomer sur ses cibles pour des tirs d’une extrême précision.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/ana/ability-biotic-rifle/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/ana/ability-biotic-rifle/icon-ability.png"
+                },
+                {
+                    "name": "FLÉCHETTE HYPODERMIQUE",
+                    "description": "Ana tire une fléchette avec son arme de poing, provoquant l’évanouissement d’un ennemi (qui se réveille s’il subit des dégâts).",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/ana/ability-sleep-dart/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/ana/ability-sleep-dart/icon-ability.png"
+                },
+                {
+                    "name": "GRENADE BIOTIQUE",
+                    "description": "Ana lance une bombe biotique qui inflige des dégâts aux ennemis et soigne les alliés dans une zone de taille réduite. Pendant un court moment, les alliés affectés reçoivent plus de soins de toutes les sources, tandis que les ennemis pris dans l’explosion ne peuvent temporairement plus être soignés.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/ana/ability-biotic-grenade/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/ana/ability-biotic-grenade/icon-ability.png"
+                },
+                {
+                    "name": "NANOBOOST",
+                    "description": "Lorsqu’ils reçoivent un bonus de combat de la part d’Ana, ses alliés infligent plus de dégâts et résistent mieux aux attaques ennemies.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/ana/ability-stim-boost/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/ana/ability-stim-boost/icon-ability.png"
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "name": "BRIGITTE",
+            "roleId": 2,
+            "description": "Brigitte est spécialisée dans les armures. Elle peut lancer des modules de réparation pour soigner ses alliés, ou les soigner automatiquement quand elle inflige des dégâts à ses ennemis à l’aide de son fléau. Cette arme peut toucher plusieurs cibles à la fois et a la capacité d’effectuer une frappe cinglante qui étourdit un ennemi à distance. Quand Brigitte entre dans la mêlée, son bouclier-écran lui fournit une protection pendant qu’elle attaque ses ennemis avec sa charge de bouclier. Sa capacité ultime, Ralliement, lui octroie un bonus de vitesse non négligeable pendant quelques secondes et fournit un bonus d’armure persistant à tous ses alliés proches.",
+            "history": "À présent au cœur de l’action, Brigitte Lindholm a pris les armes et compte bien protéger les plus faibles. Fille cadette d’un fabricant d’armes, Torbjörn Lindholm, Brigitte fut la première de ses enfants à s’intéresser à l’ingénierie mécanique. Elle passait la plupart de son temps libre dans l’atelier de son père pour apprendre les ficelles du métier et parfaire sa technique. Torbjörn était mondialement connu (et peut-être détesté) pour les armes qu’il avait mises au point. Brigitte avait hérité de son talent, mais se passionnait surtout pour la fabrication d’armures et de systèmes de défense. Tout le monde s’attendait à ce que Brigitte poursuive son apprentissage et suive les traces de son père. Mais l’influence de Reinhardt Wilhelm, autre figure importante de son entourage, changea ses projets d’avenir. Cet agent d’Overwatch était un bon ami de la famille et le parrain de Brigitte. Durant toute son enfance, il lui raconta des histoires de héros et de chevaliers. Après sa retraite et la chute d’Overwatch, Reinhardt déclara qu’il comptait partir en quête de justice, tel un chevalier errant. Avant son départ, Brigitte lui demanda de se joindre à lui en tant qu’écuyère. Reinhardt, bien que surpris, accepta. Désormais écuyère, Brigitte avait de nombreuses responsabilités, dont la plus importante consistait à entretenir l’armure de croisé de Reinhardt (un modèle qu’elle connaissait bien puisque sa version actuelle avait été conçue par son père). Petit à petit, elle réalisa qu’elle passait le plus clair de son temps à s’occuper de Reinhardt, tentant de le protéger de son enthousiasme débordant, même lorsque son corps croulait sous l’effet des années passées à combattre. Elle finit par comprendre que son rôle d’ingénieure n’était pas suffisant. Si elle souhaitait réellement aider Reinhardt, elle devait devenir une guerrière accomplie. Tandis que le chevalier lui enseignait l’art du combat, Brigitte se mit à fabriquer sa propre armure en secret. Brigitte combat désormais au côté de Reinhardt pour le protéger et venir en aide à toutes les âmes en détresse. Tels un chevalier et son écuyer, ils luttent pour un avenir meilleur, une bataille après l’autre.",
+            "difficulty": 1,
+            "videoHeader": "https://d1u1mce87gyfbn.cloudfront.net/hero/brigitte/intro-video.webm",
+            "videoBackground": "https://d1u1mce87gyfbn.cloudfront.net/hero/brigitte/idle-video.webm",
+            "imageProfile": "https://d1u1mce87gyfbn.cloudfront.net/hero/brigitte/hero-select-portrait.png",
+            "capacities": [
+                {
+                    "name": "FLÉAU À RÉACTION",
+                    "description": "L’arme de mêlée de Brigitte a une portée augmentée, ce qui lui permet de frapper plusieurs ennemis en un seul coup.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/brigitte/ability-rocket-flail/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/brigitte/ability-rocket-flail/icon-ability.png"
+                },
+                {
+                    "name": "MODULE DE RÉPARATION",
+                    "description": "Brigitte lance un module de réparation qui soigne un allié. Tout soin excédentaire sur cet allié lui octroie un bonus d’armure en compensation.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/brigitte/ability-repair-pack/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/brigitte/ability-repair-pack/icon-ability.png"
+                },
+                {
+                    "name": "FLÉAU CINGLANT",
+                    "description": "Brigitte lance son fléau à distance et ce qui inflige des dégâts et repousse l’ennemi touché loin d’elle.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/brigitte/ability-whip-shot/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/brigitte/ability-whip-shot/icon-ability.png"
+                },
+                {
+                    "name": "BOUCLIER-ÉCRAN",
+                    "description": "Brigitte déploie un bouclier d’énergie devant elle, qui absorbe un montant de dégâts limité.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/brigitte/ability-barrier-shield/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/brigitte/ability-barrier-shield/icon-ability.png"
+                },
+                {
+                    "name": "CHARGE DE BOUCLIER",
+                    "description": "Une fois son bouclier-écran déployé, Brigitte peut charger vers l’avant et étourdir un ennemi.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/brigitte/ability-shield-bash/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/brigitte/ability-shield-bash/icon-ability.png"
+                },
+                {
+                    "name": "RALLIEMENT",
+                    "description": "Brigitte se déplace plus rapidement et fournit à ses alliés proches un bonus d’amure qui dure jusqu’à ce qu’il soit absorbé par les dégâts subis.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/brigitte/ability-rally/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/brigitte/ability-rally/icon-ability.png"
+                }
+            ]
+        },
+        {
+            "id": 25,
+            "name": "LÚCIO",
+            "roleId": 2,
+            "description": "Sur le champ de bataille, l’ampli high-tech de Lúcio envoie des projectiles soniques sur ses ennemis et les repousse avec des ondes de choc. Ses chansons soignent ses alliés ou augmentent leur vitesse de déplacement, et il peut changer de morceau à la volée.",
+            "history": "Lúcio est une célébrité internationale qui milite pour le changement social par sa musique et ses actions. Lúcio Correia dos Santos grandit à Rio de Janeiro, dans une favela surpeuplée et durement touchée par le bouleversement économique qui suivit la crise des Omniums. Alors que le Brésil entamait une longue convalescence, Lúcio voulut trouver un moyen de mettre un peu de baume au cœur des gens qui l’entouraient. Sa solution, il la trouva dans la musique, qui lui permit de rassembler les gens, voire de leur faire oublier leurs soucis, ne fut-ce que pour un court instant. Il se produisait dans la rue, dans des fêtes de quartier, et, sa notoriété grandissant, dans plusieurs salles underground célèbres. Mais le petit monde de Lúcio, aussi soudé soit-il, sombra dans le chaos quand la multinationale Vishkar Corporation signa un contrat pour réorganiser de larges pans de la ville. Le promoteur avait assuré à Lúcio et ses voisins que ces reconstructions amélioreraient leur quotidien, mais ces promesses ne se concrétisèrent jamais. Vishkar se mit à contrôler les habitants dans le but de former une société plus policée à ses yeux : couvre-feu, sanctions contre les comportements excentriques et exploitation de la population comme main-d’œuvre bon marché. Lúcio ne put le tolérer. Il déroba à Vishkar la technologie sonique utilisée pour opprimer le peuple, et il en fit un outil de ralliement et d’action. Les habitants se rebellèrent et finirent par expulser Vishkar de leurs quartiers. Du jour au lendemain, Lúcio fut élevé au rang de star et d’icône du changement social positif. Sa musique devint incroyablement populaire. Alors qu’il se produisait auparavant uniquement dans son pays, il se mit à remplir des stades dans le monde entier. Grâce à sa célébrité soudaine, Lúcio découvre qu’il a l’opportunité de changer les choses et de rendre le monde meilleur.",
+            "difficulty": 2,
+            "videoHeader": "https://d1u1mce87gyfbn.cloudfront.net/hero/lucio/intro-video.webm",
+            "videoBackground": "https://d1u1mce87gyfbn.cloudfront.net/hero/lucio/idle-video.webm",
+            "imageProfile": "https://d1u1mce87gyfbn.cloudfront.net/hero/lucio/hero-select-portrait.png",
+            "capacities": [
+                {
+                    "name": "AMPLI",
+                    "description": "Lúcio peut frapper ses ennemis à l’aide de projectiles soniques ou les repousser avec une onde de choc sonore.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/lucio/ability-sonic-amplifier/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/lucio/ability-sonic-amplifier/icon-ability.png"
+                },
+                {
+                    "name": "CROSSFADE",
+                    "description": "Lúcio se stimule constamment, ainsi que ses équipiers proches, grâce à la musique. Il peut alterner entre deux chansons : l’une augmente la vitesse de déplacement, la seconde rend des points de vie.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/lucio/ability-crossfade/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/lucio/ability-crossfade/icon-ability.png"
+                },
+                {
+                    "name": "VOLUME MAX.",
+                    "description": "Lúcio augmente le volume de ses enceintes, ce qui améliore l’effet de ses chansons.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/lucio/ability-amp-it-up/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/lucio/ability-amp-it-up/icon-ability.png"
+                },
+                {
+                    "name": "MUR DE SON",
+                    "description": "Des vagues protectrices irradient de l’ampli de Lúcio et lui procurent ainsi qu’à ses alliés proches des boucliers personnels.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/lucio/ability-sound-barrier/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/lucio/ability-sound-barrier/icon-ability.png"
+                }
+            ]
+        },
+        {
+            "id": 26,
+            "name": "ANGE",
+            "roleId": 2,
+            "description": "L’armure Valkyrie d’Ange lui permet de veiller sur ses coéquipiers tel un ange gardien. Grâce aux rayons de son Caducée, elle peut les soigner, les ressusciter ou les renforcer.",
+            "history": "Véritable ange gardien pour ceux qu’elle prend en charge, le docteur Angela Ziegler est une soignante hors pair, une scientifique brillante et une fervente partisane de la paix. Ziegler a gravi les échelons jusqu’à la direction du service de chirurgie d’un grand hôpital suisse avant de lancer une percée révolutionnaire dans le domaine des nanotechnologies appliquées qui a amélioré de façon radicale le traitement des maladies et des traumatismes potentiellement mortels. C’est grâce à ce domaine d’expertise qu’elle a attiré l’attention d’Overwatch. Privée de ses parents par la guerre, Angela Ziegler était opposée à l’approche militariste de l’organisation dans le maintien de la paix mondiale. Mais elle finit par reconnaître qu’Overwatch lui offrait l’opportunité de sauver des vies à bien plus grande échelle. En devenant responsable de la recherche médicale d’Overwatch, Angela cherchait à optimiser l’application de ses travaux pour dispenser des soins sur le terrain dans les situations de crise. Ses recherches se concrétisèrent sous la forme de l’armure de traitement des urgences Valkyrie, qu’elle pilota elle-même lors de nombreuses missions d’Overwatch. Malgré ses contributions significatives, elle était fréquemment en désaccord avec ses supérieurs et les objectifs globaux de l’organisation. Après la dissolution d’Overwatch, Ziegler put se consacrer à apporter de l’aide aux victimes de guerre. Même si elle passe maintenant l’essentiel de son temps à soigner les victimes et les réfugiés dans les zones de crise aux quatre coins du globe, on peut encore compter sur le Dr Ziegler et sur son armure Valkyrie quand des innocents sont en péril.",
+            "difficulty": 1,
+            "videoHeader": "https://d1u1mce87gyfbn.cloudfront.net/hero/mercy/intro-video.webm",
+            "videoBackground": "https://d1u1mce87gyfbn.cloudfront.net/hero/mercy/idle-video.webm",
+            "imageProfile": "https://d1u1mce87gyfbn.cloudfront.net/hero/mercy/hero-select-portrait.png",
+            "capacities": [
+                {
+                    "name": "CADUCÉE",
+                    "description": "Ange projette un des deux rayons sur un allié. En maintenant les rayons, elle peut soigner l’allié ciblé ou augmenter les dégâts qu’il inflige.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/mercy/ability-caduceus-staff/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/mercy/ability-caduceus-staff/icon-ability.png"
+                },
+                {
+                    "name": "MISÉRICORDE",
+                    "description": "Ange tire une salve avec son arme de poing.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/mercy/ability-caduceus-blaster/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/mercy/ability-caduceus-blaster/icon-ability.png"
+                },
+                {
+                    "name": "ANGE GARDIEN",
+                    "description": "Ange vole vers un allié ciblé. Elle peut ainsi rejoindre rapidement ses coéquipiers pour mieux les assister dans les moments cruciaux.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/mercy/ability-guardian-angel/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/mercy/ability-guardian-angel/icon-ability.png"
+                },
+                {
+                    "name": "RÉSURRECTION",
+                    "description": "Ange ranime un allié mort avec la totalité de ses points de vie.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/mercy/ability-resurrect/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/mercy/ability-resurrect/icon-ability.png"
+                },
+                {
+                    "name": "SAUT DE L’ANGE",
+                    "description": "Grâce aux propulseurs de son armure Valkyrie, Ange peut ralentir sa vitesse de chute et descendre de n’importe quelle hauteur.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/mercy/ability-angelic-descent/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/mercy/ability-angelic-descent/icon-ability.png"
+                },
+                {
+                    "name": "VALKYRIE",
+                    "description": "Confère à Ange la capacité à voler. Ses capacités sont améliorées.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/mercy/ability-valkyrie/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/mercy/ability-valkyrie/icon-ability.png"
+                }
+            ]
+        },
+        {
+            "id": 27,
+            "name": "MOIRA",
+            "roleId": 2,
+            "description": "Les capacités biotiques de Moira lui permettent de contribuer aux soins prodigués ou aux dégâts infligés dans n’importe quelle situation. D’un coté, son emprise biotique lui permet d’intervenir à courte portée, de l’autre, son orbe biotique peut infliger des dégâts ou prodiguer des soins à longue distance. Elle peut également utiliser Volatilité pour échapper à des groupes d’ennemis ou rester à portée de ses alliés nécessitant son aide. Une fois Coalescence chargée, Moira peut éviter la mort à plusieurs alliés en même temps ou donner le coup de grâce à des ennemis déjà affaiblis.",
+            "history":"Aussi brillante que controversée, la scientifique Moira O’Deorain est à la pointe de l’ingénierie génétique. Toutes ses recherches visent à modifier la structure même des composantes biologiques fondamentales. Il y a plus de dix ans, O’Deorain a mis le microcosme scientifique en émoi en publiant un article controversé détaillant une méthodologie qui permettait de créer des programmes génétiques sur mesure capables de modifier l’ADN cellulaire. Sa découverte prometteuse semblait franchir une étape vers l’éradication des maladies et l’optimisation du potentiel humain. Cependant, des dissensions à propos de son travail naquirent très vite parmi ses confrères. Beaucoup le considéraient comme dangereux en raison des questions éthiques qu’il soulevait et O’Deorain fut même taxée de nourrir une soif insatiable de progrès scientifique. Un travers qui, selon certains, avait mené à la crise des Omniums. De plus, d’autres généticiens furent incapables de reproduire les résultats des études de Moira, ce qui contribua à décrédibiliser encore ses recherches. Ses publications, plutôt que de propulser sa carrière, endommagèrent gravement sa réputation. Elle reçut une bouée de sauvetage sous la forme d’une offre de la part d’un mécène improbable : la division des opérations spéciales d’Overwatch, Blackwatch. Moira reprit ses recherches à l’insu du public et développa de nouvelles armes et technologies pour son nouvel employeur. Le contrat qui la liait à Blackwatch était un secret bien gardé jusqu’à ce que des enquêtes découvrent le pot aux roses à la suite de l’incident de Venise. De nombreux dirigeants haut placés d’Overwatch nièrent alors avoir été au courant de la situation. Une fois Overwatch démantelée, O’Deorain n’eut d’autre choix que se tourner vers des sources de financement non conventionnelles. Cette fois, elle fut invitée à rejoindre le collectif scientifique ayant fondé la ville d’Oasis. Mais certains prétendaient qu’une organisation clandestine, la Griffe, soutenait financièrement Moira depuis déjà des années, l’aidant dans ses expérimentations en échange de l’exclusivité de ses découvertes. Bien qu’O’Deorain soit capable de tout pour faire progresser la recherche scientifique, ses travaux restent largement inconnus du grand public. Mais maintenant qu’elle est libérée de toute contrainte, ce n’est qu’une question de temps avant que ses découvertes changent profondément la donne.",
+            "difficulty": 2,
+            "videoHeader": "https://d1u1mce87gyfbn.cloudfront.net/hero/moira/intro-video.webm",
+            "videoBackground": "https://d1u1mce87gyfbn.cloudfront.net/hero/moira/idle-video.webm",
+            "imageProfile": "https://d1u1mce87gyfbn.cloudfront.net/hero/moira/hero-select-portrait.png",
+            "capacities": [
+                {
+                    "name": "EMPRISE BIOTIQUE",
+                    "description": "De sa main gauche, Moira projette de l’énergie biotique qui soigne les alliés devant elle. Sa main droite génère un rayon à longue portée qui sape la vitalité des ennemis tout en soignant Moira et en rechargant son énergie biotique.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/moira/ability-biotic-grasp/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/moira/ability-biotic-grasp/icon-ability.png"
+                },
+                {
+                    "name": "ORBE BIOTIQUE",
+                    "description": "Moira lance une sphère biotique rebondissante. Elle peut lui affecter un effet régénérant qui soigne les alliés qu’elle traverse, ou un effet nécrosant qui inflige des dégâts aux ennemis.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/moira/ability-biotic-orb/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/moira/ability-biotic-orb/icon-ability.png"
+                },
+                {
+                    "name": "VOLATILITÉ",
+                    "description": "Moira se téléporte rapidement à une courte distance.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/moira/ability-fade/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/moira/ability-fade/icon-ability.png"
+                },
+                {
+                    "name": "COALESCENCE",
+                    "description": "Moira canalise un rayon à longue portée qui soigne ses alliés et inflige des dégâts à ses ennemis même à travers les écrans.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/moira/ability-coalescence/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/moira/ability-coalescence/icon-ability.png"
+                }
+            ]
+        },
+        {
+            "id": 28,
+            "name": "ZENYATTA",
+            "roleId": 2,
+            "description": "Zenyatta invoque des orbes d’harmonie et de discorde pour soigner ses coéquipiers et affaiblir ses ennemis, tout en maintenant un état de transcendance qui le rend insensible aux dégâts.",
+            "history":"Zenyatta est un moine omniaque qui parcourt le monde à la recherche de l’éveil spirituel. On dit que ceux qui le croisent en sont changés à jamais. Il y a des années, après la crise des Omniums, un groupe de robots omniaques renégats ont fait l’expérience de ce qu’ils ont ensuite appelé un éveil spirituel. Abandonnant leurs existences préprogrammées, ils partirent établir un monastère communautaire dans les lointaines hauteurs de l’Himalaya. Après des années de méditation et de réflexion sur la nature de l’existence, ils en vinrent à croire qu’au-delà de leurs intelligences artificielles, ils disposaient, à l’instar des humains, de l’essence d’une âme. Partant de l’égalité spirituelle entre eux-mêmes et les humains, les moines, dirigés par un énigmatique robot répondant au nom de Tekhartha Mondatta, cherchèrent à panser les blessures causées par la crise des Omniums une génération plus tôt et à ramener l’harmonie sociale entre humains et robots. Leur message fut adopté et relayé par des millions de gens et ils devinrent mondialement célèbres. Mais un moine, Zenyatta, désapprouvait cette nouvelle tournure. Il pensait que l’apaisement des dissensions entre les humains et les omniaques ne pouvait provenir d’un enseignement dogmatique mais devait passer par l’implication individuelle et les relations interpersonnelles. Finalement, Zenyatta a décidé de suivre sa propre voie. Il a quitté le monastère et parcourt le monde, aidant ceux qu’il croise à surmonter leurs luttes internes et à trouver la paix intérieure. Mais quand c’est nécessaire, il est prêt à se battre pour protéger les innocents, qu’ils soient omniaques ou humains.",
+            "difficulty": 3,
+            "videoHeader": "https://d1u1mce87gyfbn.cloudfront.net/hero/zenyatta/intro-video.webm",
+            "videoBackground": "https://d1u1mce87gyfbn.cloudfront.net/hero/zenyatta/idle-video.webm",
+            "imageProfile": "https://d1u1mce87gyfbn.cloudfront.net/hero/zenyatta/hero-select-portrait.png",
+            "capacities": [
+                {
+                    "name": "ORBE DE DESTRUCTION",
+                    "description": "Zenyatta lance ses orbes d’énergie destructrice soit individuellement, soit en rafale après avoir passé quelques secondes à rassembler de l’énergie.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/zenyatta/ability-orb-of-destruction/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/zenyatta/ability-orb-of-destruction/icon-ability.png"
+                },
+                {
+                    "name": "ORBE D'HARMONIE",
+                    "description": "Zenyatta lance un orbe au-dessus d’un allié ciblé. Tant que Zenyatta reste en vie, l’orbe restaure lentement les points de vie de cet allié. Ne peut être utilisé que sur un allié à la fois.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/zenyatta/ability-orb-of-harmony/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/zenyatta/ability-orb-of-harmony/icon-ability.png"
+                },
+                {
+                    "name": "ORBE DE DISCORDE",
+                    "description": "Lancer un orbe de discorde sur un ennemi amplifie la quantité de dégâts que celui-ci reçoit tant que Zenyatta est en vie. Ne peut être utilisé que sur un adversaire à la fois.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/zenyatta/ability-orb-of-discord/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/zenyatta/ability-orb-of-discord/icon-ability.png"
+                },
+                {
+                    "name": "TRANSCENDANCE",
+                    "description": "Zenyatta parvient à accéder à un stade d’existence supérieur pendant un court moment. Tant qu’il se transcende, Zenyatta ne peut pas utiliser ses capacités ou ses armes, mais il est immunisé aux dégâts et restaure automatiquement ses points de vie et ceux des alliés proches.",
+                    "video": "https://d1u1mce87gyfbn.cloudfront.net/hero/zenyatta/ability-transcendence/video-ability.webm",
+                    "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/zenyatta/ability-transcendence/icon-ability.png"
+                }
+            ]
+        }
+    ],
+    "roles": [
+        {
+            "id": 1,
+            "name": "Tank"
+        },
+        {
+            "id": 2,
+            "name": "Soutient"
+        },
+        {
+            "id": 3,
+            "name": "Dégat"
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+---
+import UserButton from '../components/user-button.svelte';
+export interface Props {
+  title: string;
+  videoBackground?: string;
+}
+
+const { title, videoBackground } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+  </head>
+  <body>
+    <header class="p-5 fixed top-0 left-0 z-[99] w-screen flex justify-between">
+      <a href="/heroes">
+        <img width="50px" src="/logo-ow-white.png" alt="">
+      </a>
+      {Astro.url.pathname !== '/' && <UserButton client:load/>} 
+    </header>
+    {videoBackground && <div class="w-screen h-screen overflow-hidden">
+      <video autoplay muted loop>
+        <source
+          src={videoBackground}
+        />
+      </video>
+    </div>}
+
+    <div
+      class="fixed w-screen h-screen left-0 top-0 z-[1] flex justify-center items-center"
+    >
+      <slot />
+    </div>
+
+    <style is:global>
+      :root {
+        --accent: 124, 58, 237;
+        --accent-gradient: linear-gradient(
+          45deg,
+          rgb(var(--accent)),
+          #da62c4 30%,
+          white 60%
+        );
+      }
+      html {
+        font-family: system-ui, sans-serif;
+        background-color: #15202b;
+        color: white;
+      }
+      code {
+        font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
+          DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+      }
+      button {
+        @apply !bg-orange-400 p-1 pl-3 pr-3 hover:!bg-orange-600 hover:opacity-90 transition-all;
+        border-radius: 5px;
+      }
+      input {
+        @apply text-black p-2 pl-3 pr-3 transition-all;
+      }
+      input:focus {
+        @apply outline-none border-solid border-x;
+        box-shadow: 0 0 5px #fa9549;
+      }
+    </style>
+  </body>
+</html>
