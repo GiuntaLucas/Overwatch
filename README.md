@@ -1,2 +1,2 @@
 # Overwatch
-Overwatch application with multiple tech
+Overwatch application with multiple tec
