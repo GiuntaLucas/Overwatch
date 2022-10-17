@@ -1,0 +1,51 @@
+---
+export interface Props {
+  hero: HeroModel;
+}
+
+import Overwatch from "../../../public/overwatch.json";
+import HeroCapacities from "../../components/hero-capacities.svelte";
+import HeroVideo from "../../components/hero-video";
+import Layout from "../../layouts/Layout.astro";
+import { Hero as HeroModel } from "../../models/hero";
+
+export async function getStaticPaths({ paginate }) {
+  const heroesPages = Overwatch.heroes;
+  return paginate(heroesPages, {
+    props: { heroes: heroesPages },
+    pageSize: 1,
+  });
+}
+
+const { page, heroes } = Astro.props;
+---
+
+<Layout title="Astro - Ow">
+
+  <HeroVideo client:only="react" hero={page.data[0]} />
+
+  <HeroCapacities client:only="svelte" capacities={page.data[0].capacities} />
+
+  <div class="fixed bottom-0 z-50 w-screen flex justify-between p-5">
+    {
+      page.url.prev ? (
+        <a class="text-orange-400" href={page.url.prev}>
+          <b>
+            Previous hero (
+            {heroes.find((x) => x.id === page.currentPage - 1)?.name})
+          </b>{" "}
+        </a>
+      ) : null
+    }
+    {
+      page.url.next ? (
+        <a class="text-orange-400" href={page.url.next}>
+          <b>
+            Next hero ({heroes.find((x) => x.id === page.currentPage + 1)?.name}
+            )
+          </b>{" "}
+        </a>
+      ) : null
+    }
+  </div>
+</Layout>
