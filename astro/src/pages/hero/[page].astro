@@ -5,7 +5,7 @@ export interface Props {
 
 import Overwatch from "../../../public/overwatch.json";
 import HeroCapacities from "../../components/hero-capacities.svelte";
-import HeroVideo from "../../components/hero-video";
+import HeroVideo from "../../components/hero-video.svelte";
 import Layout from "../../layouts/Layout.astro";
 import { Hero as HeroModel } from "../../models/hero";
 
@@ -22,7 +22,7 @@ const { page, heroes } = Astro.props;
 
 <Layout title="Astro - Ow">
 
-  <HeroVideo client:load hero={page.data[0]} />
+  <HeroVideo client:load hero={page.data[0]}/>
 
   <HeroCapacities client:idle capacities={page.data[0].capacities} />
 
