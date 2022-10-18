@@ -22,9 +22,9 @@ const { page, heroes } = Astro.props;
 
 <Layout title="Astro - Ow">
 
-  <HeroVideo client:only="react" hero={page.data[0]} />
+  <HeroVideo client:load hero={page.data[0]} />
 
-  <HeroCapacities client:only="svelte" capacities={page.data[0].capacities} />
+  <HeroCapacities client:idle capacities={page.data[0].capacities} />
 
   <div class="fixed bottom-0 z-50 w-screen flex justify-between p-5">
     {
