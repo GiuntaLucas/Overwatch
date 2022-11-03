@@ -31,9 +31,10 @@ const { title, videoBackground } = Astro.props;
         />
       </video>
     </div>}
+    {!videoBackground && <div class="image-background"></div>}
 
     <div
-      class="fixed w-screen h-screen left-0 top-0 z-[1] flex justify-center items-center"
+      class="fixed w-screen h-screen left-0 top-0 z-[1] flex justify-center items-center overflow-y-scroll"
     >
       <slot />
     </div>
@@ -50,10 +51,17 @@ const { title, videoBackground } = Astro.props;
       }
       html {
         font-family: system-ui, sans-serif;
-        background-image: url('https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/blt9828c70fb3f45a60/6306c16eec8ae711a43279b0/2600_Silver_Background.jpg');
-        background-repeat: no-repeat;
         color: white;
       }
+      .image-background {
+        background-image: url(heroes.jpg);
+        background-repeat: no-repeat;
+        background-size: 100vw;
+        opacity: 0.2;
+        height: 100vh;
+        width: 100vw;
+      }
+      
       code {
         font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
           DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;

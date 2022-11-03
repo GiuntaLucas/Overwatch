@@ -8,9 +8,7 @@ const dps = Overwatch.heroes.filter((x) => x.roleId === 3);
 const heal = Overwatch.heroes.filter((x) => x.roleId === 2);
 ---
 <Layout title="Astro - Ow">
-    <div class="pb-5 pt-5 grid grid-cols-3 absolute bottom-0 content-end">
-        <HeroesSection heroes={tank}/>
-        <HeroesSection heroes={dps}/>
-        <HeroesSection heroes={heal}/>
+    <div class="pb-5 pt-5">
+        <HeroesSection heroes={[...tank, ...dps, ...heal]}/>
     </div>
 </Layout>
